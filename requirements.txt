@@ -6,6 +6,6 @@ urllib3
 tqdm
 scipy
 python-dotenv
-streamlit
+streamlit>=1.38.0
 matplotlib
-altair<5
+
