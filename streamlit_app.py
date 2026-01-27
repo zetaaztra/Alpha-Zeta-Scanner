@@ -392,5 +392,8 @@ def main():
         else:
             st.warning("No stocks matched the criteria.")
 
+    st.markdown("---")
+    st.markdown("<h5 style='text-align: center; color: grey;'>App by Pravin A Mathew</h5>", unsafe_allow_html=True)
+
 if __name__ == "__main__":
     main()
