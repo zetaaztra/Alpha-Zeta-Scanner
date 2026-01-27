@@ -16,9 +16,9 @@ graph TD
     B --> C["Indicator Suite (TechnicalCore)"]
     
     subgraph "Calculations (TechnicalCore)"
-    C --> C1[RSI, EMA, ATR, Hurst Exponent]
-    C --> C2[Relative Strength (Alpha-Zeta Legacy)]
-    C --> C3[Volume Ratio & Intensity]
+    C --> C1["RSI, EMA, ATR, Hurst Exponent"]
+    C --> C2["Relative Strength (Alpha-Zeta Legacy)"]
+    C --> C3["Volume Ratio & Intensity"]
     end
 
     C1 & C2 & C3 --> D{"The Shield (Safety Filters)"}
