@@ -1,0 +1,1873 @@
+2026-01-15 13:05:40,809 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:05:40,813 - INFO - Starting scan for 3-7_days | Window: 2024-01-01 to 2026-01-15
+2026-01-15 13:07:19,093 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 13:07:19,448 - ERROR - 
+1 Failed download:
+2026-01-15 13:07:19,448 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 13:20:49,970 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:20:49,974 - INFO - Starting scan for 3-7_days | Window: 2025-09-01 to 2026-01-15
+2026-01-15 13:22:04,408 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 13:22:04,729 - ERROR - 
+1 Failed download:
+2026-01-15 13:22:04,729 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 13:26:05,194 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:26:46,159 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 13:26:46,499 - ERROR - 
+1 Failed download:
+2026-01-15 13:26:46,499 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 13:30:00,799 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:30:00,803 - INFO - Scanning 3-7_days | 2025-09-01 to 2026-01-15
+2026-01-15 13:31:17,025 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 13:31:17,354 - ERROR - 
+1 Failed download:
+2026-01-15 13:31:17,355 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 13:35:03,505 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:39:42,958 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:40:15,093 - ERROR - 
+1 Failed download:
+2026-01-15 13:40:15,093 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-15 00:00:00 -> 2025-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1718389800, endDate = 1736879400")')
+2026-01-15 13:40:25,171 - ERROR - 
+1 Failed download:
+2026-01-15 13:40:25,171 - ERROR - ['JSWCEMENT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-15 00:00:00 -> 2025-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1718389800, endDate = 1736879400")')
+2026-01-15 13:40:27,146 - ERROR - 
+1 Failed download:
+2026-01-15 13:40:27,146 - ERROR - ['HEXT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-15 00:00:00 -> 2025-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1718389800, endDate = 1736879400")')
+2026-01-15 13:40:34,014 - ERROR - 
+1 Failed download:
+2026-01-15 13:40:34,015 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-15 00:00:00 -> 2025-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1718389800, endDate = 1736879400")')
+2026-01-15 13:44:33,981 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:45:16,559 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 13:45:17,001 - ERROR - 
+1 Failed download:
+2026-01-15 13:45:17,002 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 13:47:37,089 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 13:47:37,094 - INFO - Scanning 3-7_days | 2025-09-01 to 2026-01-15
+2026-01-15 13:48:59,761 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 13:49:00,122 - ERROR - 
+1 Failed download:
+2026-01-15 13:49:00,122 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 13:59:49,354 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:02:11,973 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 14:02:29,644 - INFO - Loaded pre-trained ML weights.
+2026-01-15 14:02:58,527 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:04:18,555 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 14:04:18,878 - ERROR - 
+1 Failed download:
+2026-01-15 14:04:18,879 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:07:41,997 - INFO - Loaded pre-trained ML weights.
+2026-01-15 14:08:02,289 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:09:23,913 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 14:09:24,268 - ERROR - 
+1 Failed download:
+2026-01-15 14:09:24,268 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:20:24,366 - INFO - Loaded pre-trained ML weights.
+2026-01-15 14:24:36,674 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:24:40,923 - ERROR - 
+1 Failed download:
+2026-01-15 14:24:40,924 - ERROR - ['ACMESOLAR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:24:44,373 - ERROR - 
+1 Failed download:
+2026-01-15 14:24:44,374 - ERROR - ['AADHARHFC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:24:51,857 - ERROR - 
+1 Failed download:
+2026-01-15 14:24:51,858 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:24:54,511 - ERROR - 
+1 Failed download:
+2026-01-15 14:24:54,512 - ERROR - ['AEGISLOG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:24:56,039 - ERROR - 
+1 Failed download:
+2026-01-15 14:24:56,039 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:24:57,308 - ERROR - 
+1 Failed download:
+2026-01-15 14:24:57,308 - ERROR - ['AFCONS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:24:59,485 - ERROR - 
+1 Failed download:
+2026-01-15 14:24:59,485 - ERROR - ['AKUMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:25:11,870 - ERROR - 
+1 Failed download:
+2026-01-15 14:25:11,871 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:25:13,875 - ERROR - 
+1 Failed download:
+2026-01-15 14:25:13,875 - ERROR - ['AIIL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:25:20,550 - ERROR - 
+1 Failed download:
+2026-01-15 14:25:20,551 - ERROR - ['BAJAJHFL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:25:30,670 - ERROR - 
+1 Failed download:
+2026-01-15 14:25:30,671 - ERROR - ['BHARTIHEXA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:25:35,972 - ERROR - 
+1 Failed download:
+2026-01-15 14:25:35,972 - ERROR - ['FIRSTCRY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:25:54,211 - ERROR - 
+1 Failed download:
+2026-01-15 14:25:54,212 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:26:08,004 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:08,004 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:26:11,099 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 14:26:11,442 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:11,442 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:26:15,656 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:15,657 - ERROR - ['EMCURE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:26:30,630 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:30,631 - ERROR - ['GODIGIT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:26:40,822 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:40,822 - ERROR - ['HBLENGINE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:26:46,408 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:46,409 - ERROR - ['HEXT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:26:53,712 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:53,713 - ERROR - ['HYUNDAI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:26:59,971 - ERROR - 
+1 Failed download:
+2026-01-15 14:26:59,971 - ERROR - ['ITCHOTELS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:27:02,041 - ERROR - 
+1 Failed download:
+2026-01-15 14:27:02,041 - ERROR - ['INDGN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:27:13,088 - ERROR - 
+1 Failed download:
+2026-01-15 14:27:13,088 - ERROR - ['IGIL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:27:14,445 - ERROR - 
+1 Failed download:
+2026-01-15 14:27:14,445 - ERROR - ['IKS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:27:19,409 - ERROR - 
+1 Failed download:
+2026-01-15 14:27:19,410 - ERROR - ['JSWCEMENT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:27:28,065 - ERROR - 
+1 Failed download:
+2026-01-15 14:27:28,065 - ERROR - ['JYOTICNC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:27:43,679 - ERROR - 
+1 Failed download:
+2026-01-15 14:27:43,680 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:07,888 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:07,889 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:13,611 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:13,611 - ERROR - ['NIVABUPA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:18,666 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:18,667 - ERROR - ['OLAELEC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:21,084 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:21,085 - ERROR - ['ONESOURCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:33,388 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:33,399 - ERROR - ['PREMIERENE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:46,676 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:46,676 - ERROR - ['SAGILITY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:47,633 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:47,634 - ERROR - ['SAILIFE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:28:55,086 - ERROR - 
+1 Failed download:
+2026-01-15 14:28:55,086 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:29:05,548 - ERROR - 
+1 Failed download:
+2026-01-15 14:29:05,550 - ERROR - ['SWIGGY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:29:08,138 - ERROR - 
+1 Failed download:
+2026-01-15 14:29:08,138 - ERROR - ['TBOTEK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:29:13,910 - ERROR - 
+1 Failed download:
+2026-01-15 14:29:13,911 - ERROR - ['TMPV.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:29:29,432 - ERROR - 
+1 Failed download:
+2026-01-15 14:29:29,432 - ERROR - ['UNITDSPR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:29:33,672 - ERROR - 
+1 Failed download:
+2026-01-15 14:29:33,672 - ERROR - ['VENTIVE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:29:35,192 - ERROR - 
+1 Failed download:
+2026-01-15 14:29:35,192 - ERROR - ['VMM.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:29:37,128 - ERROR - 
+1 Failed download:
+2026-01-15 14:29:37,128 - ERROR - ['WAAREEENER.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-15 00:00:00 -> 2024-01-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1686767400, endDate = 1705257000")')
+2026-01-15 14:30:42,135 - INFO - Loaded pre-trained ML weights.
+2026-01-15 14:30:42,135 - INFO - 🧠 Phase 1: Warming up the Brain with 2024 data...
+2026-01-15 14:30:50,201 - INFO - Loaded pre-trained ML weights.
+2026-01-15 14:30:55,705 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 14:30:57,742 - ERROR - Failed to fetch symbols from NSE: HTTPSConnectionPool(host='www.niftyindices.com', port=443): Read timed out. (read timeout=15). Using static fallback.
+2026-01-15 14:31:02,502 - ERROR - 
+1 Failed download:
+2026-01-15 14:31:02,502 - ERROR - ['SBI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-04-15 00:00:00 -> 2024-11-15 00:00:00)')
+2026-01-15 14:31:03,114 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 14:31:03,115 - INFO - ✅ Brain Warmed Up and Ready for 2025.
+2026-01-15 14:31:03,116 - INFO - 🚀 Phase 2: Simulating 2025 Month-by-Month...
+2026-01-15 14:31:09,813 - INFO - Loaded pre-trained ML weights.
+2026-01-15 14:31:17,081 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:31:17,084 - INFO - --- Scanning on 2025-01-06 ---
+2026-01-15 14:31:28,231 - ERROR - 
+1 Failed download:
+2026-01-15 14:31:28,231 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 14:31:30,968 - ERROR - 
+1 Failed download:
+2026-01-15 14:31:30,968 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 14:31:34,357 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:31:44,095 - ERROR - 
+1 Failed download:
+2026-01-15 14:31:44,095 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 14:32:27,078 - ERROR - 
+1 Failed download:
+2026-01-15 14:32:27,078 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 14:32:38,924 - ERROR - 
+1 Failed download:
+2026-01-15 14:32:38,925 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 14:32:41,750 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 14:32:42,241 - ERROR - 
+1 Failed download:
+2026-01-15 14:32:42,242 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:32:50,288 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 14:32:50,555 - ERROR - 
+1 Failed download:
+2026-01-15 14:32:50,555 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:33:06,223 - INFO -    Pick: CIPLA.NS | Score: 29.65 | Ret: -2.96%
+2026-01-15 14:33:06,224 - INFO -    Pick: COCHINSHIP.NS | Score: 1.98 | Ret: -8.04%
+2026-01-15 14:33:06,224 - INFO -    Pick: APLLTD.NS | Score: 1.65 | Ret: -5.96%
+2026-01-15 14:33:06,224 - INFO - --- Scanning on 2025-02-03 ---
+2026-01-15 14:33:17,384 - ERROR - 
+1 Failed download:
+2026-01-15 14:33:17,385 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 14:33:19,603 - ERROR - 
+1 Failed download:
+2026-01-15 14:33:19,603 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 14:33:32,616 - ERROR - 
+1 Failed download:
+2026-01-15 14:33:32,617 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 14:34:09,013 - ERROR - 
+1 Failed download:
+2026-01-15 14:34:09,013 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 14:34:25,721 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 14:34:26,097 - ERROR - 
+1 Failed download:
+2026-01-15 14:34:26,098 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:34:52,797 - INFO -    Pick: CENTURYPLY.NS | Score: 1.64 | Ret: -4.35%
+2026-01-15 14:34:52,798 - INFO -    Pick: BDL.NS | Score: 1.45 | Ret: -3.52%
+2026-01-15 14:34:52,798 - INFO -    Pick: BAJFINANCE.NS | Score: 1.42 | Ret: -2.51%
+2026-01-15 14:34:52,798 - INFO - --- Scanning on 2025-03-03 ---
+2026-01-15 14:35:06,758 - ERROR - 
+1 Failed download:
+2026-01-15 14:35:06,758 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 14:35:09,361 - ERROR - 
+1 Failed download:
+2026-01-15 14:35:09,361 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 14:35:24,070 - ERROR - 
+1 Failed download:
+2026-01-15 14:35:24,071 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 14:36:00,897 - ERROR - 
+1 Failed download:
+2026-01-15 14:36:00,898 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 14:36:13,870 - ERROR - 
+1 Failed download:
+2026-01-15 14:36:13,870 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:36:38,308 - INFO -    Pick: BLUEJET.NS | Score: 3.06 | Ret: 8.72%
+2026-01-15 14:36:38,308 - INFO -    Pick: GODREJIND.NS | Score: 1.42 | Ret: 2.27%
+2026-01-15 14:36:38,310 - INFO -    Pick: BAJFINANCE.NS | Score: 1.27 | Ret: -1.66%
+2026-01-15 14:36:38,311 - INFO - --- Scanning on 2025-04-07 ---
+2026-01-15 14:36:50,824 - ERROR - 
+1 Failed download:
+2026-01-15 14:36:50,825 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 14:36:53,989 - ERROR - 
+1 Failed download:
+2026-01-15 14:36:53,989 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 14:37:09,066 - ERROR - 
+1 Failed download:
+2026-01-15 14:37:09,067 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 14:37:47,650 - ERROR - 
+1 Failed download:
+2026-01-15 14:37:47,651 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 14:38:01,047 - ERROR - 
+1 Failed download:
+2026-01-15 14:38:01,048 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:38:31,562 - INFO -    Pick: LALPATHLAB.NS | Score: 161.82 | Ret: 12.55%
+2026-01-15 14:38:31,562 - INFO -    Pick: CARBORUNIV.NS | Score: 2.99 | Ret: 5.9%
+2026-01-15 14:38:31,563 - INFO -    Pick: BDL.NS | Score: 1.61 | Ret: 11.46%
+2026-01-15 14:38:31,563 - INFO - --- Scanning on 2025-05-05 ---
+2026-01-15 14:38:44,068 - ERROR - 
+1 Failed download:
+2026-01-15 14:38:44,068 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-05 00:00:00 -> 2025-05-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1736015400, endDate = 1747247400")')
+2026-01-15 14:38:47,362 - ERROR - 
+1 Failed download:
+2026-01-15 14:38:47,363 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-05 00:00:00 -> 2025-05-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1736015400, endDate = 1747247400")')
+2026-01-15 14:39:49,024 - ERROR - 
+1 Failed download:
+2026-01-15 14:39:49,024 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:40:14,127 - INFO -    Pick: ADANIGREEN.NS | Score: 2.72 | Ret: 0.16%
+2026-01-15 14:40:14,127 - INFO -    Pick: ERIS.NS | Score: 2.27 | Ret: -1.8%
+2026-01-15 14:40:14,128 - INFO -    Pick: GESHIP.NS | Score: 1.79 | Ret: -1.0%
+2026-01-15 14:40:14,128 - INFO - --- Scanning on 2025-06-02 ---
+2026-01-15 14:40:24,893 - ERROR - 
+1 Failed download:
+2026-01-15 14:40:24,893 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-02-02 00:00:00 -> 2025-06-12 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1738434600, endDate = 1749666600")')
+2026-01-15 14:41:34,327 - ERROR - 
+1 Failed download:
+2026-01-15 14:41:34,327 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:42:00,998 - INFO -    Pick: GODREJCP.NS | Score: 3.83 | Ret: -3.34%
+2026-01-15 14:42:00,998 - INFO -    Pick: FINCABLES.NS | Score: 1.93 | Ret: 3.31%
+2026-01-15 14:42:00,998 - INFO -    Pick: CIPLA.NS | Score: 1.73 | Ret: 3.5%
+2026-01-15 14:42:01,000 - INFO - --- Scanning on 2025-07-07 ---
+2026-01-15 14:43:23,916 - ERROR - 
+1 Failed download:
+2026-01-15 14:43:23,916 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:43:49,024 - INFO -    Pick: CIPLA.NS | Score: 1.81 | Ret: -2.3%
+2026-01-15 14:43:49,025 - INFO -    Pick: ADANIPORTS.NS | Score: 1.54 | Ret: 1.47%
+2026-01-15 14:43:49,025 - INFO -    Pick: CARBORUNIV.NS | Score: 1.51 | Ret: 1.62%
+2026-01-15 14:43:49,026 - INFO - --- Scanning on 2025-08-04 ---
+2026-01-15 14:45:08,553 - ERROR - 
+1 Failed download:
+2026-01-15 14:45:08,554 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:45:31,416 - INFO -    Pick: ASTRAL.NS | Score: 2.79 | Ret: -9.55%
+2026-01-15 14:45:31,416 - INFO -    Pick: GODREJIND.NS | Score: 1.96 | Ret: 4.92%
+2026-01-15 14:45:31,416 - INFO -    Pick: GODREJAGRO.NS | Score: 1.68 | Ret: -4.27%
+2026-01-15 14:45:31,417 - INFO - --- Scanning on 2025-09-01 ---
+2026-01-15 14:46:50,502 - ERROR - 
+1 Failed download:
+2026-01-15 14:46:50,503 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:47:13,242 - INFO -    Pick: ASTRAL.NS | Score: 67.57 | Ret: 2.21%
+2026-01-15 14:47:13,243 - INFO -    Pick: BAJFINANCE.NS | Score: 2.35 | Ret: 8.84%
+2026-01-15 14:47:13,243 - INFO -    Pick: APLAPOLLO.NS | Score: 2.18 | Ret: 3.41%
+2026-01-15 14:47:13,244 - INFO - --- Scanning on 2025-10-06 ---
+2026-01-15 14:48:28,299 - ERROR - 
+1 Failed download:
+2026-01-15 14:48:28,299 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:48:55,178 - INFO -    Pick: CENTURYPLY.NS | Score: 1.63 | Ret: -9.13%
+2026-01-15 14:48:55,179 - INFO -    Pick: CANFINHOME.NS | Score: 1.5 | Ret: -0.12%
+2026-01-15 14:48:55,180 - INFO -    Pick: BAJFINANCE.NS | Score: 1.45 | Ret: 5.06%
+2026-01-15 14:48:55,180 - INFO - --- Scanning on 2025-11-03 ---
+2026-01-15 14:50:17,911 - ERROR - 
+1 Failed download:
+2026-01-15 14:50:17,912 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:50:44,446 - INFO -    Pick: BDL.NS | Score: 2.21 | Ret: -0.27%
+2026-01-15 14:50:44,447 - INFO -    Pick: FACT.NS | Score: 2.1 | Ret: -1.5%
+2026-01-15 14:50:44,447 - INFO -    Pick: CCL.NS | Score: 1.7 | Ret: 20.99%
+2026-01-15 14:50:44,448 - INFO - --- Scanning on 2025-12-01 ---
+2026-01-15 14:52:05,344 - ERROR - 
+1 Failed download:
+2026-01-15 14:52:05,344 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 14:52:29,563 - INFO -    Pick: CIPLA.NS | Score: 1.72 | Ret: -2.11%
+2026-01-15 14:52:29,563 - INFO -    Pick: FACT.NS | Score: 1.64 | Ret: -6.87%
+2026-01-15 14:52:29,564 - INFO -    Pick: AUBANK.NS | Score: 1.58 | Ret: 4.54%
+2026-01-15 14:57:32,166 - INFO - Loaded pre-trained ML weights.
+2026-01-15 14:57:32,167 - INFO - 🔥 V2 Phase 1: Multi-Period Brain Training...
+2026-01-15 14:57:33,085 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:57:33,088 - INFO - --- Forging from 2024-06-01 ---
+2026-01-15 14:57:39,894 - ERROR - 
+1 Failed download:
+2026-01-15 14:57:39,894 - ERROR - ['IKS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 14:57:44,518 - ERROR - 
+1 Failed download:
+2026-01-15 14:57:44,518 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 14:57:50,859 - ERROR - 
+1 Failed download:
+2026-01-15 14:57:50,860 - ERROR - ['NIVABUPA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 14:57:54,265 - ERROR - 
+1 Failed download:
+2026-01-15 14:57:54,266 - ERROR - ['HBLENGINE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 14:57:58,947 - ERROR - 
+1 Failed download:
+2026-01-15 14:57:58,948 - ERROR - ['ITCHOTELS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 14:58:14,658 - ERROR - 
+1 Failed download:
+2026-01-15 14:58:14,659 - ERROR - ['FIRSTCRY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 14:58:20,984 - INFO - --- Forging from 2024-10-01 ---
+2026-01-15 14:58:27,558 - ERROR - 
+1 Failed download:
+2026-01-15 14:58:27,558 - ERROR - ['IKS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-03-15 00:00:00 -> 2024-10-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1710441000, endDate = 1728930600")')
+2026-01-15 14:58:31,926 - ERROR - 
+1 Failed download:
+2026-01-15 14:58:31,928 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-03-15 00:00:00 -> 2024-10-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1710441000, endDate = 1728930600")')
+2026-01-15 14:58:39,480 - ERROR - 
+1 Failed download:
+2026-01-15 14:58:39,481 - ERROR - ['NIVABUPA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-03-15 00:00:00 -> 2024-10-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1710441000, endDate = 1728930600")')
+2026-01-15 14:58:43,263 - ERROR - 
+1 Failed download:
+2026-01-15 14:58:43,265 - ERROR - ['HBLENGINE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-03-15 00:00:00 -> 2024-10-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1710441000, endDate = 1728930600")')
+2026-01-15 14:58:48,861 - ERROR - 
+1 Failed download:
+2026-01-15 14:58:48,861 - ERROR - ['ITCHOTELS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-03-15 00:00:00 -> 2024-10-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1710441000, endDate = 1728930600")')
+2026-01-15 14:59:07,576 - INFO - --- Forging from 2025-03-01 ---
+2026-01-15 14:59:17,438 - ERROR - 
+1 Failed download:
+2026-01-15 14:59:17,438 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-13 00:00:00 -> 2025-03-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723487400, endDate = 1741977000")')
+2026-01-15 14:59:48,551 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 14:59:48,551 - INFO - ✅ V2 Brain Trained on 224 multi-period records.
+2026-01-15 14:59:48,552 - INFO - 🚀 V2 Phase 2: Simulating 2025 Month-by-Month...
+2026-01-15 14:59:49,603 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 14:59:49,606 - INFO - --- Scanning on 2025-01-06 ---
+2026-01-15 15:00:00,537 - ERROR - 
+1 Failed download:
+2026-01-15 15:00:00,537 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 15:00:03,409 - ERROR - 
+1 Failed download:
+2026-01-15 15:00:03,410 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 15:00:16,563 - ERROR - 
+1 Failed download:
+2026-01-15 15:00:16,563 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 15:00:52,581 - ERROR - 
+1 Failed download:
+2026-01-15 15:00:52,582 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 15:01:05,514 - ERROR - 
+1 Failed download:
+2026-01-15 15:01:05,514 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 15:01:08,828 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 15:01:09,217 - ERROR - 
+1 Failed download:
+2026-01-15 15:01:09,218 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:01:36,066 - INFO -    V2 Pick: CIPLA.NS | Score: 2.31 | Ret: -2.96%
+2026-01-15 15:01:36,066 - INFO -    V2 Pick: AEGISLOG.NS | Score: 0.42 | Ret: -2.89%
+2026-01-15 15:01:36,067 - INFO -    V2 Pick: APLLTD.NS | Score: 0.39 | Ret: -5.96%
+2026-01-15 15:01:36,067 - INFO - --- Scanning on 2025-02-03 ---
+2026-01-15 15:01:49,474 - ERROR - 
+1 Failed download:
+2026-01-15 15:01:49,474 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 15:01:52,068 - ERROR - 
+1 Failed download:
+2026-01-15 15:01:52,069 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 15:02:06,797 - ERROR - 
+1 Failed download:
+2026-01-15 15:02:06,797 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 15:02:40,561 - ERROR - 
+1 Failed download:
+2026-01-15 15:02:40,562 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 15:02:56,535 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 15:02:56,939 - ERROR - 
+1 Failed download:
+2026-01-15 15:02:56,939 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:03:27,944 - INFO -    V2 Pick: BATAINDIA.NS | Score: 0.45 | Ret: -4.36%
+2026-01-15 15:03:27,944 - INFO -    V2 Pick: BAJFINANCE.NS | Score: 0.44 | Ret: -2.51%
+2026-01-15 15:03:27,945 - INFO -    V2 Pick: CENTURYPLY.NS | Score: 0.44 | Ret: -4.35%
+2026-01-15 15:03:27,946 - INFO - --- Scanning on 2025-03-03 ---
+2026-01-15 15:03:41,005 - ERROR - 
+1 Failed download:
+2026-01-15 15:03:41,005 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 15:03:43,905 - ERROR - 
+1 Failed download:
+2026-01-15 15:03:43,906 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 15:03:58,615 - ERROR - 
+1 Failed download:
+2026-01-15 15:03:58,615 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 15:04:37,646 - ERROR - 
+1 Failed download:
+2026-01-15 15:04:37,646 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 15:04:52,268 - ERROR - 
+1 Failed download:
+2026-01-15 15:04:52,269 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:05:18,125 - INFO -    V2 Pick: GODREJIND.NS | Score: 0.29 | Ret: 2.27%
+2026-01-15 15:05:18,126 - INFO -    V2 Pick: BLUEJET.NS | Score: 0.28 | Ret: 8.72%
+2026-01-15 15:05:18,126 - INFO -    V2 Pick: BAJFINANCE.NS | Score: 0.27 | Ret: -1.66%
+2026-01-15 15:05:18,127 - INFO - --- Scanning on 2025-04-07 ---
+2026-01-15 15:05:29,498 - ERROR - 
+1 Failed download:
+2026-01-15 15:05:29,498 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 15:05:32,055 - ERROR - 
+1 Failed download:
+2026-01-15 15:05:32,055 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 15:05:47,871 - ERROR - 
+1 Failed download:
+2026-01-15 15:05:47,872 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 15:06:24,590 - ERROR - 
+1 Failed download:
+2026-01-15 15:06:24,590 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 15:06:38,009 - ERROR - 
+1 Failed download:
+2026-01-15 15:06:38,009 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:07:02,054 - INFO -    V2 Pick: LALPATHLAB.NS | Score: 12.09 | Ret: 12.55%
+2026-01-15 15:07:02,054 - INFO -    V2 Pick: GODREJCP.NS | Score: 0.32 | Ret: 7.28%
+2026-01-15 15:07:02,055 - INFO -    V2 Pick: BHARTIHEXA.NS | Score: 0.2 | Ret: 8.12%
+2026-01-15 15:07:02,055 - INFO - --- Scanning on 2025-05-05 ---
+2026-01-15 15:07:14,425 - ERROR - 
+1 Failed download:
+2026-01-15 15:07:14,425 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-05 00:00:00 -> 2025-05-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1736015400, endDate = 1747247400")')
+2026-01-15 15:07:17,000 - ERROR - 
+1 Failed download:
+2026-01-15 15:07:17,000 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-05 00:00:00 -> 2025-05-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1736015400, endDate = 1747247400")')
+2026-01-15 15:08:18,089 - ERROR - 
+1 Failed download:
+2026-01-15 15:08:18,090 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:08:45,406 - INFO -    V2 Pick: ADANIGREEN.NS | Score: 0.5 | Ret: 0.16%
+2026-01-15 15:08:45,407 - INFO -    V2 Pick: FINCABLES.NS | Score: 0.48 | Ret: 1.72%
+2026-01-15 15:08:45,408 - INFO -    V2 Pick: GESHIP.NS | Score: 0.48 | Ret: -1.0%
+2026-01-15 15:08:45,409 - INFO - --- Scanning on 2025-06-02 ---
+2026-01-15 15:08:58,514 - ERROR - 
+1 Failed download:
+2026-01-15 15:08:58,515 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-02-02 00:00:00 -> 2025-06-12 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1738434600, endDate = 1749666600")')
+2026-01-15 15:10:07,516 - ERROR - 
+1 Failed download:
+2026-01-15 15:10:07,516 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:10:34,516 - INFO -    V2 Pick: GODREJCP.NS | Score: 0.49 | Ret: -3.34%
+2026-01-15 15:10:34,516 - INFO -    V2 Pick: CCL.NS | Score: 0.41 | Ret: -4.25%
+2026-01-15 15:10:34,517 - INFO -    V2 Pick: GODREJIND.NS | Score: 0.38 | Ret: 6.76%
+2026-01-15 15:10:34,517 - INFO - --- Scanning on 2025-07-07 ---
+2026-01-15 15:11:46,025 - ERROR - 
+1 Failed download:
+2026-01-15 15:11:46,025 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:12:12,088 - INFO -    V2 Pick: GODREJCP.NS | Score: 0.46 | Ret: -0.28%
+2026-01-15 15:12:12,088 - INFO -    V2 Pick: CIPLA.NS | Score: 0.4 | Ret: -2.3%
+2026-01-15 15:12:12,089 - INFO -    V2 Pick: CREDITACC.NS | Score: 0.38 | Ret: 0.94%
+2026-01-15 15:12:12,089 - INFO - --- Scanning on 2025-08-04 ---
+2026-01-15 15:13:33,653 - ERROR - 
+1 Failed download:
+2026-01-15 15:13:33,654 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:13:57,979 - INFO -    V2 Pick: CCL.NS | Score: 0.47 | Ret: -6.98%
+2026-01-15 15:13:57,980 - INFO -    V2 Pick: CENTURYPLY.NS | Score: 0.4 | Ret: -3.6%
+2026-01-15 15:13:57,980 - INFO -    V2 Pick: ASTRAL.NS | Score: 0.39 | Ret: -9.55%
+2026-01-15 15:13:57,980 - INFO - --- Scanning on 2025-09-01 ---
+2026-01-15 15:15:16,666 - ERROR - 
+1 Failed download:
+2026-01-15 15:15:16,667 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:15:42,121 - INFO -    V2 Pick: ASTRAL.NS | Score: 5.07 | Ret: 2.21%
+2026-01-15 15:15:42,121 - INFO -    V2 Pick: CGPOWER.NS | Score: 0.48 | Ret: 7.22%
+2026-01-15 15:15:42,122 - INFO -    V2 Pick: CCL.NS | Score: 0.48 | Ret: 1.39%
+2026-01-15 15:15:42,122 - INFO - --- Scanning on 2025-10-06 ---
+2026-01-15 15:17:01,455 - ERROR - 
+1 Failed download:
+2026-01-15 15:17:01,456 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:17:29,503 - INFO -    V2 Pick: EMCURE.NS | Score: 0.5 | Ret: -4.93%
+2026-01-15 15:17:29,505 - INFO -    V2 Pick: CHENNPETRO.NS | Score: 0.43 | Ret: -6.13%
+2026-01-15 15:17:29,506 - INFO -    V2 Pick: FORTIS.NS | Score: 0.4 | Ret: 3.2%
+2026-01-15 15:17:29,508 - INFO - --- Scanning on 2025-11-03 ---
+2026-01-15 15:18:51,013 - ERROR - 
+1 Failed download:
+2026-01-15 15:18:51,013 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:19:17,008 - INFO -    V2 Pick: FACT.NS | Score: 0.48 | Ret: -1.5%
+2026-01-15 15:19:17,008 - INFO -    V2 Pick: LALPATHLAB.NS | Score: 0.45 | Ret: -5.14%
+2026-01-15 15:19:17,008 - INFO -    V2 Pick: BDL.NS | Score: 0.45 | Ret: -0.27%
+2026-01-15 15:19:17,008 - INFO - --- Scanning on 2025-12-01 ---
+2026-01-15 15:20:32,826 - ERROR - 
+1 Failed download:
+2026-01-15 15:20:32,827 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 15:20:56,548 - INFO -    V2 Pick: CANFINHOME.NS | Score: 0.4 | Ret: -0.78%
+2026-01-15 15:20:56,548 - INFO -    V2 Pick: CIPLA.NS | Score: 0.38 | Ret: -2.11%
+2026-01-15 15:20:56,549 - INFO -    V2 Pick: AUBANK.NS | Score: 0.36 | Ret: 4.54%
+2026-01-15 16:05:44,955 - INFO - Loaded pre-trained ML weights.
+2026-01-15 16:05:44,956 - INFO - 🧠 V3 Warming up brain with 2024 data...
+2026-01-15 16:05:47,263 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 16:06:00,817 - ERROR - 
+1 Failed download:
+2026-01-15 16:06:00,818 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 16:06:18,806 - ERROR - 
+1 Failed download:
+2026-01-15 16:06:18,807 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-11-14 00:00:00 -> 2024-06-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1699900200, endDate = 1718389800")')
+2026-01-15 16:06:33,045 - ERROR - 
+1 Failed download:
+2026-01-15 16:06:33,045 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-03-15 00:00:00 -> 2024-10-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1710441000, endDate = 1728930600")')
+2026-01-15 16:06:50,313 - ERROR - 
+1 Failed download:
+2026-01-15 16:06:50,313 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-03-15 00:00:00 -> 2024-10-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1710441000, endDate = 1728930600")')
+2026-01-15 16:06:53,530 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 16:06:53,530 - INFO - ✅ Brain trained on 116 records.
+2026-01-15 16:06:53,531 - INFO - 🚀 V3 BACKTEST: Realistic Daily Exit Simulation
+2026-01-15 16:06:54,617 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 16:06:54,620 - INFO - --- Scanning on 2025-01-06 | Capital: ₹50000 ---
+2026-01-15 16:07:07,310 - ERROR - 
+1 Failed download:
+2026-01-15 16:07:07,312 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 16:07:10,159 - ERROR - 
+1 Failed download:
+2026-01-15 16:07:10,160 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 16:07:23,926 - ERROR - 
+1 Failed download:
+2026-01-15 16:07:23,926 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 16:08:01,043 - ERROR - 
+1 Failed download:
+2026-01-15 16:08:01,043 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 16:08:13,241 - ERROR - 
+1 Failed download:
+2026-01-15 16:08:13,241 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-08 00:00:00 -> 2025-01-16 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725733800, endDate = 1736965800")')
+2026-01-15 16:08:16,384 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 16:08:16,743 - ERROR - 
+1 Failed download:
+2026-01-15 16:08:16,743 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:08:41,901 - INFO -    CIPLA: MAX_DAYS in 6d | -2.96% | ₹-494.0
+2026-01-15 16:08:41,901 - INFO -    COCHINSHIP: MAX_DAYS in 6d | -8.04% | ₹-1339.0
+2026-01-15 16:08:41,902 - INFO -    GODREJCP: TARGET_HIT in 2d | 3.44% | ₹573.0
+2026-01-15 16:08:41,903 - INFO - --- Scanning on 2025-02-03 | Capital: ₹48740 ---
+2026-01-15 16:08:55,913 - ERROR - 
+1 Failed download:
+2026-01-15 16:08:55,913 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 16:08:58,814 - ERROR - 
+1 Failed download:
+2026-01-15 16:08:58,814 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 16:09:15,366 - ERROR - 
+1 Failed download:
+2026-01-15 16:09:15,367 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 16:09:52,716 - ERROR - 
+1 Failed download:
+2026-01-15 16:09:52,717 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-06 00:00:00 -> 2025-02-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728153000, endDate = 1739385000")')
+2026-01-15 16:10:07,814 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 16:10:08,223 - ERROR - 
+1 Failed download:
+2026-01-15 16:10:08,224 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:10:34,571 - INFO -    GVT&D: TARGET_HIT in 1d | 3.92% | ₹637.0
+2026-01-15 16:10:34,571 - INFO -    BATAINDIA: MAX_DAYS in 6d | -4.36% | ₹-708.0
+2026-01-15 16:10:34,572 - INFO -    BAJFINANCE: MAX_DAYS in 6d | -2.51% | ₹-408.0
+2026-01-15 16:10:34,572 - INFO - --- Scanning on 2025-03-03 | Capital: ₹48260 ---
+2026-01-15 16:10:48,239 - ERROR - 
+1 Failed download:
+2026-01-15 16:10:48,239 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 16:10:50,894 - ERROR - 
+1 Failed download:
+2026-01-15 16:10:50,895 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 16:11:06,825 - ERROR - 
+1 Failed download:
+2026-01-15 16:11:06,826 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 16:11:48,541 - ERROR - 
+1 Failed download:
+2026-01-15 16:11:48,541 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-03 00:00:00 -> 2025-03-13 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730572200, endDate = 1741804200")')
+2026-01-15 16:12:02,936 - ERROR - 
+1 Failed download:
+2026-01-15 16:12:02,936 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:12:28,748 - INFO -    BLUEJET: TARGET_HIT in 1d | 4.44% | ₹715.0
+2026-01-15 16:12:28,748 - INFO -    AXISBANK: TARGET_HIT in 2d | 2.67% | ₹429.0
+2026-01-15 16:12:28,748 - INFO -    MEDANTA: TARGET_HIT in 2d | 3.26% | ₹524.0
+2026-01-15 16:12:28,749 - INFO - --- Scanning on 2025-04-07 | Capital: ₹49929 ---
+2026-01-15 16:12:40,835 - ERROR - 
+1 Failed download:
+2026-01-15 16:12:40,835 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 16:12:43,528 - ERROR - 
+1 Failed download:
+2026-01-15 16:12:43,529 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 16:12:57,029 - ERROR - 
+1 Failed download:
+2026-01-15 16:12:57,029 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 16:13:49,607 - ERROR - 
+1 Failed download:
+2026-01-15 16:13:49,607 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-08 00:00:00 -> 2025-04-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733596200, endDate = 1744828200")')
+2026-01-15 16:14:04,559 - ERROR - 
+1 Failed download:
+2026-01-15 16:14:04,560 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:14:29,861 - INFO -    LALPATHLAB: TARGET_HIT in 1d | 8.31% | ₹1383.0
+2026-01-15 16:14:29,862 - INFO -    CARBORUNIV: TARGET_HIT in 3d | 4.13% | ₹687.0
+2026-01-15 16:14:29,863 - INFO -    MEDANTA: TARGET_HIT in 1d | 2.7% | ₹449.0
+2026-01-15 16:14:29,863 - INFO - --- Scanning on 2025-05-05 | Capital: ₹52447 ---
+2026-01-15 16:14:42,933 - ERROR - 
+1 Failed download:
+2026-01-15 16:14:42,935 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-05 00:00:00 -> 2025-05-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1736015400, endDate = 1747247400")')
+2026-01-15 16:14:45,642 - ERROR - 
+1 Failed download:
+2026-01-15 16:14:45,642 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-05 00:00:00 -> 2025-05-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1736015400, endDate = 1747247400")')
+2026-01-15 16:15:47,112 - ERROR - 
+1 Failed download:
+2026-01-15 16:15:47,112 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:16:13,657 - INFO -    ADANIGREEN: MAX_DAYS in 6d | 0.16% | ₹28.0
+2026-01-15 16:16:13,658 - INFO -    ERIS: MAX_DAYS in 6d | -1.8% | ₹-316.0
+2026-01-15 16:16:13,658 - INFO -    CHALET: TARGET_HIT in 4d | 5.54% | ₹969.0
+2026-01-15 16:16:13,658 - INFO - --- Scanning on 2025-06-02 | Capital: ₹53129 ---
+2026-01-15 16:16:26,648 - ERROR - 
+1 Failed download:
+2026-01-15 16:16:26,648 - ERROR - ['ABLBL.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-02-02 00:00:00 -> 2025-06-12 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1738434600, endDate = 1749666600")')
+2026-01-15 16:17:31,397 - ERROR - 
+1 Failed download:
+2026-01-15 16:17:31,398 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:17:55,975 - INFO -    GODREJCP: MAX_DAYS in 6d | -3.34% | ₹-592.0
+2026-01-15 16:17:55,976 - INFO -    CIPLA: TARGET_HIT in 3d | 2.31% | ₹410.0
+2026-01-15 16:17:55,976 - INFO -    FINCABLES: TARGET_HIT in 4d | 2.5% | ₹443.0
+2026-01-15 16:17:55,977 - INFO - --- Scanning on 2025-07-07 | Capital: ₹53390 ---
+2026-01-15 16:19:12,332 - ERROR - 
+1 Failed download:
+2026-01-15 16:19:12,332 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:19:39,720 - INFO -    GODREJCP: TARGET_HIT in 1d | 2.0% | ₹356.0
+2026-01-15 16:19:39,721 - INFO -    CREDITACC: TARGET_HIT in 3d | 1.67% | ₹296.0
+2026-01-15 16:19:39,721 - INFO -    CHOICEIN: TARGET_HIT in 6d | 5.32% | ₹947.0
+2026-01-15 16:19:39,722 - INFO - --- Scanning on 2025-08-04 | Capital: ₹54990 ---
+2026-01-15 16:21:03,818 - ERROR - 
+1 Failed download:
+2026-01-15 16:21:03,818 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:21:29,675 - INFO -    ASTRAL: MAX_DAYS in 6d | -9.55% | ₹-1750.0
+2026-01-15 16:21:29,676 - INFO -    AEGISLOG: MAX_DAYS in 6d | -0.94% | ₹-172.0
+2026-01-15 16:21:29,676 - INFO -    BATAINDIA: MAX_DAYS in 6d | -7.53% | ₹-1380.0
+2026-01-15 16:21:29,676 - INFO - --- Scanning on 2025-09-01 | Capital: ₹51688 ---
+2026-01-15 16:22:49,556 - ERROR - 
+1 Failed download:
+2026-01-15 16:22:49,556 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:23:20,879 - INFO -    ASTRAL: TARGET_HIT in 3d | 3.38% | ₹583.0
+2026-01-15 16:23:20,880 - INFO -    BAJFINANCE: TARGET_HIT in 2d | 5.1% | ₹880.0
+2026-01-15 16:23:20,880 - INFO -    CCL: TARGET_HIT in 1d | 3.12% | ₹538.0
+2026-01-15 16:23:20,880 - INFO - --- Scanning on 2025-10-06 | Capital: ₹53688 ---
+2026-01-15 16:24:51,563 - ERROR - 
+1 Failed download:
+2026-01-15 16:24:51,564 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:25:14,516 - INFO -    BAJFINANCE: TARGET_HIT in 2d | 1.51% | ₹270.0
+2026-01-15 16:25:14,516 - INFO -    EMCURE: MAX_DAYS in 6d | -4.93% | ₹-883.0
+2026-01-15 16:25:14,516 - INFO -    CHENNPETRO: MAX_DAYS in 6d | -6.13% | ₹-1097.0
+2026-01-15 16:25:14,517 - INFO - --- Scanning on 2025-11-03 | Capital: ₹51979 ---
+2026-01-15 16:26:25,109 - ERROR - 
+1 Failed download:
+2026-01-15 16:26:25,109 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:26:52,923 - INFO -    BDL: MAX_DAYS in 6d | -0.27% | ₹-47.0
+2026-01-15 16:26:52,924 - INFO -    CHENNPETRO: TARGET_HIT in 1d | 3.13% | ₹543.0
+2026-01-15 16:26:52,924 - INFO -    GODREJCP: MAX_DAYS in 6d | -3.2% | ₹-555.0
+2026-01-15 16:26:52,925 - INFO - --- Scanning on 2025-12-01 | Capital: ₹51919 ---
+2026-01-15 16:28:18,306 - ERROR - 
+1 Failed download:
+2026-01-15 16:28:18,307 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:28:45,244 - INFO -    FACT: MAX_DAYS in 6d | -6.87% | ₹-1189.0
+2026-01-15 16:28:45,246 - INFO -    CANFINHOME: MAX_DAYS in 6d | -0.78% | ₹-135.0
+2026-01-15 16:28:45,246 - INFO -    ARE&M: MAX_DAYS in 6d | -0.56% | ₹-97.0
+2026-01-15 16:44:12,088 - INFO - Loaded pre-trained ML weights.
+2026-01-15 16:44:12,089 - INFO - 🧠 V4 Training: Aggressive Mode...
+2026-01-15 16:44:13,695 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 16:44:16,329 - ERROR - 
+1 Failed download:
+2026-01-15 16:44:16,330 - ERROR - ['HEXT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-04 00:00:00 -> 2023-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1685817000, endDate = 1700505000")')
+2026-01-15 16:44:20,133 - ERROR - 
+1 Failed download:
+2026-01-15 16:44:20,134 - ERROR - ['IKS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-04 00:00:00 -> 2023-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1685817000, endDate = 1700505000")')
+2026-01-15 16:44:23,013 - ERROR - 
+1 Failed download:
+2026-01-15 16:44:23,013 - ERROR - ['JYOTICNC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-04 00:00:00 -> 2023-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1685817000, endDate = 1700505000")')
+2026-01-15 16:44:30,444 - ERROR - 
+1 Failed download:
+2026-01-15 16:44:30,444 - ERROR - ['WAAREEENER.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-04 00:00:00 -> 2023-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1685817000, endDate = 1700505000")')
+2026-01-15 16:44:44,515 - ERROR - 
+1 Failed download:
+2026-01-15 16:44:44,515 - ERROR - ['BHARTIHEXA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-04 00:00:00 -> 2023-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1685817000, endDate = 1700505000")')
+2026-01-15 16:44:50,107 - ERROR - 
+1 Failed download:
+2026-01-15 16:44:50,108 - ERROR - ['PREMIERENE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-06-04 00:00:00 -> 2023-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1685817000, endDate = 1700505000")')
+2026-01-15 16:44:56,067 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 16:44:56,587 - ERROR - 
+1 Failed download:
+2026-01-15 16:44:56,587 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:45:05,346 - ERROR - 
+1 Failed download:
+2026-01-15 16:45:05,347 - ERROR - ['HEXT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-04 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1717439400, endDate = 1732127400")')
+2026-01-15 16:45:09,052 - ERROR - 
+1 Failed download:
+2026-01-15 16:45:09,053 - ERROR - ['IKS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-04 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1717439400, endDate = 1732127400")')
+2026-01-15 16:45:41,446 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 16:45:41,760 - ERROR - 
+1 Failed download:
+2026-01-15 16:45:41,761 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:45:47,713 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 16:45:47,713 - INFO - ✅ V4 Aggressive Brain Trained.
+2026-01-15 16:45:47,714 - INFO - 🚀 V4 BACKTEST: BREAKOUTS + TRAILING STOPS
+2026-01-15 16:45:48,585 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 16:45:48,589 - INFO - --- Scan 2025-01-06 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:46:18,122 - ERROR - 
+1 Failed download:
+2026-01-15 16:46:18,123 - ERROR - ['ONESOURCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-09 00:00:00 -> 2025-01-11 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723141800, endDate = 1736533800")')
+2026-01-15 16:46:29,454 - ERROR - 
+1 Failed download:
+2026-01-15 16:46:29,454 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-09 00:00:00 -> 2025-01-11 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723141800, endDate = 1736533800")')
+2026-01-15 16:47:01,140 - ERROR - 
+1 Failed download:
+2026-01-15 16:47:01,140 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-09 00:00:00 -> 2025-01-11 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723141800, endDate = 1736533800")')
+2026-01-15 16:47:06,661 - ERROR - 
+1 Failed download:
+2026-01-15 16:47:06,662 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-09 00:00:00 -> 2025-01-11 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723141800, endDate = 1736533800")')
+2026-01-15 16:47:09,584 - INFO - --- Scan 2025-01-13 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:47:36,641 - ERROR - 
+1 Failed download:
+2026-01-15 16:47:36,642 - ERROR - ['ONESOURCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-16 00:00:00 -> 2025-01-18 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723746600, endDate = 1737138600")')
+2026-01-15 16:47:47,088 - ERROR - 
+1 Failed download:
+2026-01-15 16:47:47,119 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-16 00:00:00 -> 2025-01-18 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723746600, endDate = 1737138600")')
+2026-01-15 16:48:22,520 - ERROR - 
+1 Failed download:
+2026-01-15 16:48:22,521 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-16 00:00:00 -> 2025-01-18 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723746600, endDate = 1737138600")')
+2026-01-15 16:48:30,454 - ERROR - 
+1 Failed download:
+2026-01-15 16:48:30,454 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-16 00:00:00 -> 2025-01-18 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1723746600, endDate = 1737138600")')
+2026-01-15 16:48:35,217 - INFO - --- Scan 2025-01-20 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:49:05,827 - ERROR - 
+1 Failed download:
+2026-01-15 16:49:05,827 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-23 00:00:00 -> 2025-01-25 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1724351400, endDate = 1737743400")')
+2026-01-15 16:49:42,734 - ERROR - 
+1 Failed download:
+2026-01-15 16:49:42,734 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-23 00:00:00 -> 2025-01-25 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1724351400, endDate = 1737743400")')
+2026-01-15 16:49:47,439 - ERROR - 
+1 Failed download:
+2026-01-15 16:49:47,439 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-23 00:00:00 -> 2025-01-25 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1724351400, endDate = 1737743400")')
+2026-01-15 16:49:50,645 - INFO - --- Scan 2025-01-27 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:50:16,062 - INFO - Loaded pre-trained ML weights.
+2026-01-15 16:50:16,063 - INFO - 🌐 Downloading full 2024-2025 data (This happens once)...
+2026-01-15 16:50:16,960 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 16:50:30,624 - ERROR - 
+1 Failed download:
+2026-01-15 16:50:30,626 - ERROR - ['AGARWALEYE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-30 00:00:00 -> 2025-02-01 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1724956200, endDate = 1738348200")')
+2026-01-15 16:50:36,926 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 16:50:41,209 - ERROR - 
+1 Failed download:
+2026-01-15 16:50:41,209 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:51:03,617 - ERROR - 
+1 Failed download:
+2026-01-15 16:51:03,617 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-30 00:00:00 -> 2025-02-01 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1724956200, endDate = 1738348200")')
+2026-01-15 16:51:10,007 - ERROR - 
+1 Failed download:
+2026-01-15 16:51:10,008 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-08-30 00:00:00 -> 2025-02-01 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1724956200, endDate = 1738348200")')
+2026-01-15 16:51:13,311 - INFO - --- Scan 2025-02-03 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:51:33,467 - INFO - ✅ Cached data for 498 symbols.
+2026-01-15 16:51:33,513 - INFO - 🧠 V4 Training: Aggressive Mode...
+2026-01-15 16:51:49,018 - ERROR - Failed to fetch symbols from NSE: HTTPSConnectionPool(host='www.niftyindices.com', port=443): Read timed out. (read timeout=15). Using static fallback.
+2026-01-15 16:51:51,273 - ERROR - 
+1 Failed download:
+2026-01-15 16:51:51,274 - ERROR - ['SBI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-04 00:00:00 -> 2024-11-21 00:00:00)')
+2026-01-15 16:52:23,111 - INFO - Loaded pre-trained ML weights.
+2026-01-15 16:52:23,112 - INFO - ⚡ Loading data from cache...
+2026-01-15 16:52:23,210 - INFO - 🧠 V4 Training: Aggressive Mode...
+2026-01-15 16:52:24,428 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 16:52:27,009 - ERROR - 
+1 Failed download:
+2026-01-15 16:52:27,009 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-06 00:00:00 -> 2025-02-08 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725561000, endDate = 1738953000")')
+2026-01-15 16:52:32,801 - ERROR - 
+1 Failed download:
+2026-01-15 16:52:32,802 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-06 00:00:00 -> 2025-02-08 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1725561000, endDate = 1738953000")')
+2026-01-15 16:52:34,065 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-15 16:52:34,476 - ERROR - 
+1 Failed download:
+2026-01-15 16:52:34,476 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-15 16:52:35,620 - INFO - --- Scan 2025-02-10 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:52:47,709 - ERROR - 
+1 Failed download:
+2026-01-15 16:52:47,710 - ERROR - ['COHANCE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-04 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1717439400, endDate = 1732127400")')
+2026-01-15 16:52:51,931 - ERROR - 
+1 Failed download:
+2026-01-15 16:52:51,932 - ERROR - ['ATHERENERG.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-04 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1717439400, endDate = 1732127400")')
+2026-01-15 16:52:58,757 - ERROR - 
+1 Failed download:
+2026-01-15 16:52:58,758 - ERROR - ['HBLENGINE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-06-04 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1717439400, endDate = 1732127400")')
+2026-01-15 16:53:13,586 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 16:53:13,587 - INFO - 🚀 V4 FAST BACKTEST STARTING...
+2026-01-15 16:53:52,846 - ERROR - 
+1 Failed download:
+2026-01-15 16:53:52,847 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-13 00:00:00 -> 2025-02-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1726165800, endDate = 1739557800")')
+2026-01-15 16:53:58,815 - ERROR - 
+1 Failed download:
+2026-01-15 16:53:58,815 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-13 00:00:00 -> 2025-02-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1726165800, endDate = 1739557800")')
+2026-01-15 16:54:02,107 - INFO - --- Scan 2025-02-17 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:55:17,666 - ERROR - 
+1 Failed download:
+2026-01-15 16:55:17,667 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-20 00:00:00 -> 2025-02-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1726770600, endDate = 1740162600")')
+2026-01-15 16:55:23,298 - ERROR - 
+1 Failed download:
+2026-01-15 16:55:23,298 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-20 00:00:00 -> 2025-02-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1726770600, endDate = 1740162600")')
+2026-01-15 16:55:26,388 - INFO - --- Scan 2025-02-24 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:56:35,561 - ERROR - 
+1 Failed download:
+2026-01-15 16:56:35,562 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-27 00:00:00 -> 2025-03-01 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1727375400, endDate = 1740767400")')
+2026-01-15 16:56:40,603 - ERROR - 
+1 Failed download:
+2026-01-15 16:56:40,603 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-09-27 00:00:00 -> 2025-03-01 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1727375400, endDate = 1740767400")')
+2026-01-15 16:56:43,430 - INFO - --- Scan 2025-03-03 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:57:56,391 - ERROR - 
+1 Failed download:
+2026-01-15 16:57:56,392 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-04 00:00:00 -> 2025-03-08 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1727980200, endDate = 1741372200")')
+2026-01-15 16:58:02,457 - ERROR - 
+1 Failed download:
+2026-01-15 16:58:02,458 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-04 00:00:00 -> 2025-03-08 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1727980200, endDate = 1741372200")')
+2026-01-15 16:58:05,427 - INFO - --- Scan 2025-03-10 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 16:59:20,765 - ERROR - 
+1 Failed download:
+2026-01-15 16:59:20,765 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-11 00:00:00 -> 2025-03-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728585000, endDate = 1741977000")')
+2026-01-15 16:59:25,812 - ERROR - 
+1 Failed download:
+2026-01-15 16:59:25,812 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-11 00:00:00 -> 2025-03-15 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1728585000, endDate = 1741977000")')
+2026-01-15 16:59:28,512 - INFO - --- Scan 2025-03-17 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:00:38,290 - ERROR - 
+1 Failed download:
+2026-01-15 17:00:38,290 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-18 00:00:00 -> 2025-03-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1729189800, endDate = 1742581800")')
+2026-01-15 17:00:44,742 - ERROR - 
+1 Failed download:
+2026-01-15 17:00:44,743 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-18 00:00:00 -> 2025-03-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1729189800, endDate = 1742581800")')
+2026-01-15 17:00:48,231 - INFO - --- Scan 2025-03-24 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:01:10,714 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:01:10,715 - INFO - ⚡ Loading cached data...
+2026-01-15 17:01:10,819 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:01:10,820 - INFO - 🚀 V5 HYPER-ACTIVE SIMULATION STARTING...
+2026-01-15 17:02:01,560 - ERROR - 
+1 Failed download:
+2026-01-15 17:02:01,560 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-25 00:00:00 -> 2025-03-29 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1729794600, endDate = 1743186600")')
+2026-01-15 17:02:07,372 - ERROR - 
+1 Failed download:
+2026-01-15 17:02:07,372 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-10-25 00:00:00 -> 2025-03-29 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1729794600, endDate = 1743186600")')
+2026-01-15 17:02:11,958 - INFO - --- Scan 2025-03-31 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:03:24,767 - ERROR - 
+1 Failed download:
+2026-01-15 17:03:24,767 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-01 00:00:00 -> 2025-04-05 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730399400, endDate = 1743791400")')
+2026-01-15 17:03:29,753 - ERROR - 
+1 Failed download:
+2026-01-15 17:03:29,753 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-01 00:00:00 -> 2025-04-05 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1730399400, endDate = 1743791400")')
+2026-01-15 17:03:32,888 - INFO - --- Scan 2025-04-07 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:04:35,785 - ERROR - 
+1 Failed download:
+2026-01-15 17:04:35,785 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-08 00:00:00 -> 2025-04-12 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1731004200, endDate = 1744396200")')
+2026-01-15 17:04:40,601 - ERROR - 
+1 Failed download:
+2026-01-15 17:04:40,602 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-08 00:00:00 -> 2025-04-12 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1731004200, endDate = 1744396200")')
+2026-01-15 17:04:43,332 - INFO - --- Scan 2025-04-14 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:05:53,065 - ERROR - 
+1 Failed download:
+2026-01-15 17:05:53,066 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-15 00:00:00 -> 2025-04-19 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1731609000, endDate = 1745001000")')
+2026-01-15 17:05:58,655 - ERROR - 
+1 Failed download:
+2026-01-15 17:05:58,656 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-15 00:00:00 -> 2025-04-19 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1731609000, endDate = 1745001000")')
+2026-01-15 17:06:01,639 - INFO - --- Scan 2025-04-21 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:07:13,870 - ERROR - 
+1 Failed download:
+2026-01-15 17:07:13,871 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-22 00:00:00 -> 2025-04-26 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1732213800, endDate = 1745605800")')
+2026-01-15 17:07:19,266 - ERROR - 
+1 Failed download:
+2026-01-15 17:07:19,267 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-22 00:00:00 -> 2025-04-26 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1732213800, endDate = 1745605800")')
+2026-01-15 17:07:21,958 - INFO - --- Scan 2025-04-28 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:08:45,268 - ERROR - 
+1 Failed download:
+2026-01-15 17:08:45,268 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-29 00:00:00 -> 2025-05-03 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1732818600, endDate = 1746210600")')
+2026-01-15 17:08:52,424 - ERROR - 
+1 Failed download:
+2026-01-15 17:08:52,424 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-11-29 00:00:00 -> 2025-05-03 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1732818600, endDate = 1746210600")')
+2026-01-15 17:08:55,412 - INFO - --- Scan 2025-05-05 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:09:25,616 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:09:25,616 - INFO - ⚡ Loading cached data...
+2026-01-15 17:09:25,780 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:09:25,780 - INFO - 🚀 V6 TREND RIDER SIMULATION STARTING...
+2026-01-15 17:09:25,781 - INFO -    Strategy: Hold until Close < 10-Day EMA
+2026-01-15 17:10:09,021 - ERROR - 
+1 Failed download:
+2026-01-15 17:10:09,021 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-06 00:00:00 -> 2025-05-10 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733423400, endDate = 1746815400")')
+2026-01-15 17:10:14,426 - ERROR - 
+1 Failed download:
+2026-01-15 17:10:14,426 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-06 00:00:00 -> 2025-05-10 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1733423400, endDate = 1746815400")')
+2026-01-15 17:10:17,576 - INFO - --- Scan 2025-05-12 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:11:12,658 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:11:12,658 - INFO - ⚡ Loading cached data...
+2026-01-15 17:11:12,814 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:11:12,816 - INFO - 🚀 V7 SNIPER SIMULATION STARTING...
+2026-01-15 17:11:12,816 - INFO -    Strategy: 100% Capital on Top 1 Pick/Month
+2026-01-15 17:11:12,816 - INFO - --- Sniper Scan 2025-01-06 | Cash: ₹50000 ---
+2026-01-15 17:11:13,151 - INFO -    No targets found.
+2026-01-15 17:11:13,152 - INFO - --- Sniper Scan 2025-02-03 | Cash: ₹50000 ---
+2026-01-15 17:11:13,304 - INFO -    No targets found.
+2026-01-15 17:11:13,305 - INFO - --- Sniper Scan 2025-03-03 | Cash: ₹50000 ---
+2026-01-15 17:11:13,439 - INFO -    No targets found.
+2026-01-15 17:11:13,440 - INFO - --- Sniper Scan 2025-04-07 | Cash: ₹50000 ---
+2026-01-15 17:11:32,738 - ERROR - 
+1 Failed download:
+2026-01-15 17:11:32,738 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-13 00:00:00 -> 2025-05-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1734028200, endDate = 1747420200")')
+2026-01-15 17:11:39,855 - ERROR - 
+1 Failed download:
+2026-01-15 17:11:39,856 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-13 00:00:00 -> 2025-05-17 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1734028200, endDate = 1747420200")')
+2026-01-15 17:11:43,666 - INFO - --- Scan 2025-05-19 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:12:14,099 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:12:14,100 - INFO - ⚡ Loading cached data...
+2026-01-15 17:12:14,250 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:12:14,250 - INFO - 🚀 V7 SNIPER SIMULATION STARTING...
+2026-01-15 17:12:14,251 - INFO -    Strategy: 100% Capital on Top 1 Pick/Month
+2026-01-15 17:12:14,251 - INFO - --- Sniper Scan 2025-01-06 | Cash: ₹50000 ---
+2026-01-15 17:12:16,635 - INFO -    No targets found.
+2026-01-15 17:12:16,635 - INFO - --- Sniper Scan 2025-02-03 | Cash: ₹50000 ---
+2026-01-15 17:12:18,121 - INFO -    No targets found.
+2026-01-15 17:12:18,121 - INFO - --- Sniper Scan 2025-03-03 | Cash: ₹50000 ---
+2026-01-15 17:12:18,948 - INFO -    No targets found.
+2026-01-15 17:12:18,949 - INFO - --- Sniper Scan 2025-04-07 | Cash: ₹50000 ---
+2026-01-15 17:12:21,000 - INFO -    No targets found.
+2026-01-15 17:12:21,001 - INFO - --- Sniper Scan 2025-05-05 | Cash: ₹50000 ---
+2026-01-15 17:12:26,055 - INFO -    No targets found.
+2026-01-15 17:12:26,055 - INFO - --- Sniper Scan 2025-06-02 | Cash: ₹50000 ---
+2026-01-15 17:12:31,604 - INFO -    No targets found.
+2026-01-15 17:12:31,605 - INFO - --- Sniper Scan 2025-07-07 | Cash: ₹50000 ---
+2026-01-15 17:12:36,727 - INFO -    No targets found.
+2026-01-15 17:12:36,728 - INFO - --- Sniper Scan 2025-08-04 | Cash: ₹50000 ---
+2026-01-15 17:12:39,400 - INFO -    No targets found.
+2026-01-15 17:12:39,400 - INFO - --- Sniper Scan 2025-09-01 | Cash: ₹50000 ---
+2026-01-15 17:12:41,758 - INFO -    No targets found.
+2026-01-15 17:12:41,758 - INFO - --- Sniper Scan 2025-10-06 | Cash: ₹50000 ---
+2026-01-15 17:12:45,416 - INFO -    No targets found.
+2026-01-15 17:12:45,417 - INFO - --- Sniper Scan 2025-11-03 | Cash: ₹50000 ---
+2026-01-15 17:12:49,492 - INFO -    No targets found.
+2026-01-15 17:12:49,494 - INFO - --- Sniper Scan 2025-12-01 | Cash: ₹50000 ---
+2026-01-15 17:12:52,483 - INFO -    No targets found.
+2026-01-15 17:12:59,469 - ERROR - 
+1 Failed download:
+2026-01-15 17:12:59,470 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-20 00:00:00 -> 2025-05-24 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1734633000, endDate = 1748025000")')
+2026-01-15 17:13:04,960 - ERROR - 
+1 Failed download:
+2026-01-15 17:13:04,980 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-20 00:00:00 -> 2025-05-24 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1734633000, endDate = 1748025000")')
+2026-01-15 17:13:07,748 - INFO - --- Scan 2025-05-26 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:13:44,298 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:13:44,298 - INFO - ⚡ Loading cached data...
+2026-01-15 17:13:44,455 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:13:44,457 - INFO - 🚀 V7 SNIPER SIMULATION STARTING...
+2026-01-15 17:13:44,457 - INFO -    Strategy: 100% Capital on Top 1 Pick/Month
+2026-01-15 17:13:44,458 - INFO - --- Sniper Scan 2025-01-06 | Cash: ₹50000 ---
+2026-01-15 17:13:50,848 - INFO -    No targets found.
+2026-01-15 17:13:50,848 - INFO - --- Sniper Scan 2025-02-03 | Cash: ₹50000 ---
+2026-01-15 17:13:57,240 - INFO -    No targets found.
+2026-01-15 17:13:57,241 - INFO - --- Sniper Scan 2025-03-03 | Cash: ₹50000 ---
+2026-01-15 17:14:04,356 - INFO -    No targets found.
+2026-01-15 17:14:04,356 - INFO - --- Sniper Scan 2025-04-07 | Cash: ₹50000 ---
+2026-01-15 17:14:11,674 - INFO -    No targets found.
+2026-01-15 17:14:11,674 - INFO - --- Sniper Scan 2025-05-05 | Cash: ₹50000 ---
+2026-01-15 17:14:18,464 - INFO -    No targets found.
+2026-01-15 17:14:18,465 - INFO - --- Sniper Scan 2025-06-02 | Cash: ₹50000 ---
+2026-01-15 17:14:22,381 - ERROR - 
+1 Failed download:
+2026-01-15 17:14:22,381 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-27 00:00:00 -> 2025-05-31 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1735237800, endDate = 1748629800")')
+2026-01-15 17:14:25,869 - INFO -    No targets found.
+2026-01-15 17:14:25,869 - INFO - --- Sniper Scan 2025-07-07 | Cash: ₹50000 ---
+2026-01-15 17:14:28,543 - ERROR - 
+1 Failed download:
+2026-01-15 17:14:28,552 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-27 00:00:00 -> 2025-05-31 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1735237800, endDate = 1748629800")')
+2026-01-15 17:14:33,841 - INFO -    No targets found.
+2026-01-15 17:14:33,841 - INFO - --- Sniper Scan 2025-08-04 | Cash: ₹50000 ---
+2026-01-15 17:14:34,805 - INFO - --- Scan 2025-06-02 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:14:41,544 - INFO -    No targets found.
+2026-01-15 17:14:41,546 - INFO - --- Sniper Scan 2025-09-01 | Cash: ₹50000 ---
+2026-01-15 17:14:49,945 - INFO -    No targets found.
+2026-01-15 17:14:49,953 - INFO - --- Sniper Scan 2025-10-06 | Cash: ₹50000 ---
+2026-01-15 17:14:58,380 - INFO -    No targets found.
+2026-01-15 17:14:58,414 - INFO - --- Sniper Scan 2025-11-03 | Cash: ₹50000 ---
+2026-01-15 17:15:07,530 - INFO -    No targets found.
+2026-01-15 17:15:07,530 - INFO - --- Sniper Scan 2025-12-01 | Cash: ₹50000 ---
+2026-01-15 17:15:16,016 - INFO -    No targets found.
+2026-01-15 17:15:25,801 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:15:25,802 - INFO - ⚡ Loading cached data...
+2026-01-15 17:15:25,962 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:15:25,962 - INFO - 🚀 V7 SNIPER SIMULATION STARTING...
+2026-01-15 17:15:25,963 - INFO -    Strategy: 100% Capital on Top 1 Pick/Month
+2026-01-15 17:15:25,963 - INFO - --- Sniper Scan 2025-01-06 | Cash: ₹50000 ---
+2026-01-15 17:15:59,413 - ERROR - 
+1 Failed download:
+2026-01-15 17:15:59,413 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-03 00:00:00 -> 2025-06-07 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1735842600, endDate = 1749234600")')
+2026-01-15 17:16:02,272 - INFO - --- Scan 2025-06-09 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:17:11,436 - ERROR - 
+1 Failed download:
+2026-01-15 17:17:11,436 - ERROR - ['ENRIN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-01-10 00:00:00 -> 2025-06-14 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1736447400, endDate = 1749839400")')
+2026-01-15 17:17:14,286 - INFO - --- Scan 2025-06-16 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:17:31,770 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:17:31,772 - INFO - ⚡ Loading cached data...
+2026-01-15 17:17:31,934 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:17:31,936 - INFO - 🚀 V7 SNIPER SIMULATION STARTING...
+2026-01-15 17:17:31,936 - INFO -    Strategy: 100% Capital on Top 1 Pick/Month
+2026-01-15 17:17:31,937 - INFO - --- Sniper Scan 2025-01-06 | Cash: ₹50000 ---
+2026-01-15 17:17:38,449 - INFO - 🎯 Target: KAJARIACER.NS | STOP_LOSS | -7.00% | ₹-3500
+2026-01-15 17:17:38,451 - INFO - --- Sniper Scan 2025-02-03 | Cash: ₹46500 ---
+2026-01-15 17:17:44,882 - INFO - 🎯 Target: OFSS.NS | TIME_EXIT | -1.78% | ₹-830
+2026-01-15 17:17:44,882 - INFO - --- Sniper Scan 2025-03-03 | Cash: ₹45670 ---
+2026-01-15 17:17:52,650 - INFO - 🎯 Target: ATUL.NS | TIME_EXIT | 0.03% | ₹14
+2026-01-15 17:17:52,651 - INFO - --- Sniper Scan 2025-04-07 | Cash: ₹45684 ---
+2026-01-15 17:17:59,428 - INFO - 🎯 Target: LALPATHLAB.NS | TIME_EXIT | 10.72% | ₹4898
+2026-01-15 17:17:59,429 - INFO - --- Sniper Scan 2025-05-05 | Cash: ₹50582 ---
+2026-01-15 17:18:07,583 - INFO - 🎯 Target: ANANDRATHI.NS | TIME_EXIT | 2.84% | ₹1436
+2026-01-15 17:18:07,584 - INFO - --- Sniper Scan 2025-06-02 | Cash: ₹52019 ---
+2026-01-15 17:18:15,468 - INFO - 🎯 Target: JINDALSTEL.NS | TIME_EXIT | 1.21% | ₹628
+2026-01-15 17:18:15,468 - INFO - --- Sniper Scan 2025-07-07 | Cash: ₹52647 ---
+2026-01-15 17:18:23,843 - INFO - 🎯 Target: WAAREEENER.NS | TIME_EXIT | 12.80% | ₹6741
+2026-01-15 17:18:23,844 - INFO - --- Sniper Scan 2025-08-04 | Cash: ₹59388 ---
+2026-01-15 17:18:31,694 - INFO - 🎯 Target: HAVELLS.NS | TIME_EXIT | -2.83% | ₹-1681
+2026-01-15 17:18:31,695 - INFO - --- Sniper Scan 2025-09-01 | Cash: ₹57707 ---
+2026-01-15 17:18:40,090 - INFO - 🎯 Target: ASTRAL.NS | TIME_EXIT | 2.21% | ₹1275
+2026-01-15 17:18:40,091 - INFO - --- Sniper Scan 2025-10-06 | Cash: ₹58983 ---
+2026-01-15 17:18:48,315 - INFO - 🎯 Target: ACC.NS | TIME_EXIT | 1.31% | ₹772
+2026-01-15 17:18:48,316 - INFO - --- Sniper Scan 2025-11-03 | Cash: ₹59755 ---
+2026-01-15 17:18:50,166 - INFO - --- Scan 2025-06-23 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:18:57,459 - INFO - 🎯 Target: IDEA.NS | TIME_EXIT | 8.70% | ₹5199
+2026-01-15 17:18:57,459 - INFO - --- Sniper Scan 2025-12-01 | Cash: ₹64953 ---
+2026-01-15 17:19:06,189 - INFO - 🎯 Target: KIRLOSBROS.NS | STOP_LOSS | -7.00% | ₹-4547
+2026-01-15 17:20:32,596 - INFO - --- Scan 2025-06-30 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:21:48,803 - INFO - --- Scan 2025-07-07 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:22:59,746 - INFO - Loaded pre-trained ML weights.
+2026-01-15 17:22:59,748 - INFO - ⚡ Loading cached data...
+2026-01-15 17:22:59,867 - INFO - 
+🚀 Simulating: Intraday (Hold 0 Days)
+2026-01-15 17:22:59,887 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:23:15,611 - INFO - --- Scan 2025-07-14 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:24:31,549 - INFO - --- Scan 2025-07-21 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:24:35,321 - INFO - 
+🚀 Simulating: Swing (2 Weeks) (Hold 10 Days)
+2026-01-15 17:24:35,339 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:25:54,588 - INFO - --- Scan 2025-07-28 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:26:12,404 - INFO - 
+🚀 Simulating: Position (1 Month) (Hold 20 Days)
+2026-01-15 17:26:12,422 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 17:27:10,651 - INFO - --- Scan 2025-08-04 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:28:32,080 - INFO - --- Scan 2025-08-11 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:29:46,321 - INFO - --- Scan 2025-08-18 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 17:30:57,485 - INFO - --- Scan 2025-08-25 | Cash: ₹50000 | Open Pos: 0 ---
+2026-01-15 20:08:51,195 - INFO - Loaded pre-trained ML weights.
+2026-01-15 20:08:51,197 - INFO - ⚡ Loading cached data...
+2026-01-15 20:08:51,415 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 20:08:51,416 - INFO - 🚀 V8 SCALPER SIMULATION (Target +1%) STARTING...
+2026-01-15 20:16:14,828 - INFO - Loaded pre-trained ML weights.
+2026-01-15 20:16:14,829 - INFO - ⚡ Loading cached data...
+2026-01-15 20:16:14,980 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 20:16:14,981 - INFO - 🚀 V8 SCALPER SIMULATION (Target +1%) STARTING...
+2026-01-15 20:51:25,853 - INFO - Loaded pre-trained ML weights.
+2026-01-15 20:53:05,641 - INFO - Loaded pre-trained ML weights.
+2026-01-15 20:53:05,641 - INFO - ⚡ Loading cached data...
+2026-01-15 20:53:05,745 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 20:53:05,745 - INFO - 🚀 V9 INFINITE HOLD SIMULATION STARTING...
+2026-01-15 20:53:05,746 - INFO - 
+--- Testing: Weekly (3-7 Days) ---
+2026-01-15 20:53:46,986 - INFO - Loaded pre-trained ML weights.
+2026-01-15 20:53:46,987 - INFO - ⚡ Loading cached data...
+2026-01-15 20:53:47,161 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 20:53:47,162 - INFO - 🚀 V9 INFINITE HOLD SIMULATION STARTING...
+2026-01-15 20:53:47,163 - INFO - 
+--- Testing: Weekly (3-7 Days) ---
+2026-01-15 20:53:55,529 - INFO - 
+--- Testing: Bi-Weekly (2 Weeks) ---
+2026-01-15 20:54:17,146 - INFO - 
+--- Testing: Monthly (1 Month) ---
+2026-01-15 21:01:36,836 - INFO - Loaded pre-trained ML weights.
+2026-01-15 21:01:36,837 - INFO - ⚡ Loading cached data...
+2026-01-15 21:01:36,966 - INFO - 
+🚀 Simulating: 1 Week (5 Days) (Hold 5 Days)
+2026-01-15 21:01:36,988 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 21:03:09,512 - INFO - 
+🚀 Simulating: 2 Weeks (10 Days) (Hold 10 Days)
+2026-01-15 21:03:09,533 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 21:04:43,990 - INFO - 
+🚀 Simulating: 1 Month (20 Days) (Hold 20 Days)
+2026-01-15 21:04:44,011 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 22:25:35,569 - INFO - ⚡ Loading cached data...
+2026-01-15 22:25:35,707 - INFO - 📊 Fetching Nifty 50 for Regime Filter...
+2026-01-15 22:25:42,793 - INFO - 🚀 PURE MOMENTUM SIMULATION STARTING...
+2026-01-15 22:25:42,799 - INFO - --- Scan 2025-01-06 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:25:42,800 - INFO - --- Scan 2025-01-20 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:25:42,803 - INFO - --- Scan 2025-02-03 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:25:42,804 - INFO - --- Scan 2025-02-17 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:25:42,806 - INFO - --- Scan 2025-03-03 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:25:42,808 - INFO - --- Scan 2025-03-17 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:25:42,810 - INFO - --- Scan 2025-03-31 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:25:42,812 - INFO - --- Scan 2025-04-14 | 🐻 BEAR MARKET (Cash Protection) | Cash: ₹50000
+2026-01-15 22:27:02,296 - INFO - ⚡ Loading cached data...
+2026-01-15 22:27:02,382 - INFO - 📊 Fetching Nifty 50 for Regime Filter...
+2026-01-15 22:27:05,089 - INFO - 🚀 PURE MOMENTUM SIMULATION STARTING...
+2026-01-15 22:28:02,401 - INFO - ⚡ Loading cached data...
+2026-01-15 22:28:02,479 - INFO - 📊 Fetching Nifty 50 for Regime Filter...
+2026-01-15 22:28:05,270 - INFO - 🚀 PURE MOMENTUM SIMULATION STARTING...
+2026-01-15 22:28:05,275 - INFO - Scan 2025-01-06: Found 0 candidates.
+2026-01-15 22:28:05,276 - WARNING - Scan 2025-01-06: No top picks found!
+2026-01-15 22:28:05,279 - INFO - Scan 2025-01-20: Found 0 candidates.
+2026-01-15 22:28:05,279 - WARNING - Scan 2025-01-20: No top picks found!
+2026-01-15 22:28:05,283 - INFO - Scan 2025-02-03: Found 0 candidates.
+2026-01-15 22:28:05,283 - WARNING - Scan 2025-02-03: No top picks found!
+2026-01-15 22:28:05,288 - INFO - Scan 2025-02-17: Found 0 candidates.
+2026-01-15 22:28:05,291 - WARNING - Scan 2025-02-17: No top picks found!
+2026-01-15 22:28:05,293 - INFO - Scan 2025-03-03: Found 0 candidates.
+2026-01-15 22:28:05,293 - WARNING - Scan 2025-03-03: No top picks found!
+2026-01-15 22:28:05,298 - INFO - Scan 2025-03-17: Found 0 candidates.
+2026-01-15 22:28:05,299 - WARNING - Scan 2025-03-17: No top picks found!
+2026-01-15 22:28:05,302 - INFO - Scan 2025-03-31: Found 0 candidates.
+2026-01-15 22:28:05,302 - WARNING - Scan 2025-03-31: No top picks found!
+2026-01-15 22:28:05,309 - INFO - Scan 2025-04-14: Found 0 candidates.
+2026-01-15 22:28:05,310 - WARNING - Scan 2025-04-14: No top picks found!
+2026-01-15 22:28:05,313 - INFO - Scan 2025-04-28: Found 0 candidates.
+2026-01-15 22:28:05,315 - WARNING - Scan 2025-04-28: No top picks found!
+2026-01-15 22:28:05,319 - INFO - Scan 2025-05-12: Found 0 candidates.
+2026-01-15 22:28:05,320 - WARNING - Scan 2025-05-12: No top picks found!
+2026-01-15 22:28:05,326 - INFO - Scan 2025-05-26: Found 0 candidates.
+2026-01-15 22:28:05,327 - WARNING - Scan 2025-05-26: No top picks found!
+2026-01-15 22:28:05,330 - INFO - Scan 2025-06-09: Found 0 candidates.
+2026-01-15 22:28:05,330 - WARNING - Scan 2025-06-09: No top picks found!
+2026-01-15 22:28:05,341 - INFO - Scan 2025-06-23: Found 0 candidates.
+2026-01-15 22:28:05,342 - WARNING - Scan 2025-06-23: No top picks found!
+2026-01-15 22:28:05,345 - INFO - Scan 2025-07-07: Found 0 candidates.
+2026-01-15 22:28:05,345 - WARNING - Scan 2025-07-07: No top picks found!
+2026-01-15 22:28:05,352 - INFO - Scan 2025-07-21: Found 0 candidates.
+2026-01-15 22:28:05,352 - WARNING - Scan 2025-07-21: No top picks found!
+2026-01-15 22:28:05,358 - INFO - Scan 2025-08-04: Found 0 candidates.
+2026-01-15 22:28:05,358 - WARNING - Scan 2025-08-04: No top picks found!
+2026-01-15 22:28:05,363 - INFO - Scan 2025-08-18: Found 0 candidates.
+2026-01-15 22:28:05,364 - WARNING - Scan 2025-08-18: No top picks found!
+2026-01-15 22:28:05,369 - INFO - Scan 2025-09-01: Found 0 candidates.
+2026-01-15 22:28:05,369 - WARNING - Scan 2025-09-01: No top picks found!
+2026-01-15 22:28:05,374 - INFO - Scan 2025-09-15: Found 0 candidates.
+2026-01-15 22:28:05,375 - WARNING - Scan 2025-09-15: No top picks found!
+2026-01-15 22:28:05,379 - INFO - Scan 2025-09-29: Found 0 candidates.
+2026-01-15 22:28:05,379 - WARNING - Scan 2025-09-29: No top picks found!
+2026-01-15 22:28:05,385 - INFO - Scan 2025-10-13: Found 0 candidates.
+2026-01-15 22:28:05,386 - WARNING - Scan 2025-10-13: No top picks found!
+2026-01-15 22:28:05,392 - INFO - Scan 2025-10-27: Found 0 candidates.
+2026-01-15 22:28:05,393 - WARNING - Scan 2025-10-27: No top picks found!
+2026-01-15 22:28:05,397 - INFO - Scan 2025-11-10: Found 0 candidates.
+2026-01-15 22:28:05,397 - WARNING - Scan 2025-11-10: No top picks found!
+2026-01-15 22:28:05,403 - INFO - Scan 2025-11-24: Found 0 candidates.
+2026-01-15 22:28:05,403 - WARNING - Scan 2025-11-24: No top picks found!
+2026-01-15 22:40:55,004 - INFO - ⚡ Loading cached data...
+2026-01-15 22:40:55,148 - INFO - 📊 Fetching Nifty 50 for Regime Filter...
+2026-01-15 22:41:01,981 - INFO - 🚀 PURE MOMENTUM SIMULATION STARTING...
+2026-01-15 22:41:02,429 - INFO - Scan 2025-01-06: Found 463 candidates.
+2026-01-15 22:41:02,430 - INFO - --- Scan 2025-01-06 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:18,770 - INFO - ⚡ Loading cached data...
+2026-01-15 22:42:18,900 - INFO - 📊 Fetching Nifty 50 for Regime Filter...
+2026-01-15 22:42:26,150 - INFO - 🚀 PURE MOMENTUM SIMULATION STARTING...
+2026-01-15 22:42:26,485 - INFO - Scan 2025-01-06: Found 463 candidates.
+2026-01-15 22:42:26,485 - INFO - --- Scan 2025-01-06 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:26,862 - INFO - Scan 2025-01-20: Found 464 candidates.
+2026-01-15 22:42:26,890 - INFO - --- Scan 2025-01-20 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:27,171 - INFO - Scan 2025-02-03: Found 462 candidates.
+2026-01-15 22:42:27,171 - INFO - --- Scan 2025-02-03 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:27,448 - INFO - Scan 2025-02-17: Found 460 candidates.
+2026-01-15 22:42:27,450 - INFO - --- Scan 2025-02-17 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:27,724 - INFO - Scan 2025-03-03: Found 459 candidates.
+2026-01-15 22:42:27,726 - INFO - --- Scan 2025-03-03 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:27,989 - INFO - Scan 2025-03-17: Found 461 candidates.
+2026-01-15 22:42:27,990 - INFO - --- Scan 2025-03-17 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:28,004 - INFO - Scan 2025-03-31: Found 0 candidates.
+2026-01-15 22:42:28,004 - WARNING - Scan 2025-03-31: No top picks found!
+2026-01-15 22:42:28,020 - INFO - Scan 2025-04-14: Found 0 candidates.
+2026-01-15 22:42:28,020 - WARNING - Scan 2025-04-14: No top picks found!
+2026-01-15 22:42:28,277 - INFO - Scan 2025-04-28: Found 467 candidates.
+2026-01-15 22:42:28,278 - INFO - --- Scan 2025-04-28 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:28,544 - INFO - Scan 2025-05-12: Found 473 candidates.
+2026-01-15 22:42:28,545 - INFO - --- Scan 2025-05-12 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:28,818 - INFO - Scan 2025-05-26: Found 477 candidates.
+2026-01-15 22:42:28,819 - INFO - --- Scan 2025-05-26 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:29,076 - INFO - Scan 2025-06-09: Found 477 candidates.
+2026-01-15 22:42:29,076 - INFO - --- Scan 2025-06-09 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:29,343 - INFO - Scan 2025-06-23: Found 478 candidates.
+2026-01-15 22:42:29,344 - INFO - --- Scan 2025-06-23 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:29,625 - INFO - Scan 2025-07-07: Found 479 candidates.
+2026-01-15 22:42:29,626 - INFO - --- Scan 2025-07-07 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:29,893 - INFO - Scan 2025-07-21: Found 479 candidates.
+2026-01-15 22:42:29,894 - INFO - --- Scan 2025-07-21 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:30,215 - INFO - Scan 2025-08-04: Found 478 candidates.
+2026-01-15 22:42:30,242 - INFO - --- Scan 2025-08-04 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:30,601 - INFO - Scan 2025-08-18: Found 478 candidates.
+2026-01-15 22:42:30,602 - INFO - --- Scan 2025-08-18 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:30,881 - INFO - Scan 2025-09-01: Found 479 candidates.
+2026-01-15 22:42:30,882 - INFO - --- Scan 2025-09-01 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:31,139 - INFO - Scan 2025-09-15: Found 481 candidates.
+2026-01-15 22:42:31,139 - INFO - --- Scan 2025-09-15 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:31,412 - INFO - Scan 2025-09-29: Found 481 candidates.
+2026-01-15 22:42:31,413 - INFO - --- Scan 2025-09-29 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:31,698 - INFO - Scan 2025-10-13: Found 483 candidates.
+2026-01-15 22:42:31,699 - INFO - --- Scan 2025-10-13 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:31,961 - INFO - Scan 2025-10-27: Found 483 candidates.
+2026-01-15 22:42:31,961 - INFO - --- Scan 2025-10-27 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:32,243 - INFO - Scan 2025-11-10: Found 485 candidates.
+2026-01-15 22:42:32,245 - INFO - --- Scan 2025-11-10 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 22:42:32,513 - INFO - Scan 2025-11-24: Found 484 candidates.
+2026-01-15 22:42:32,514 - INFO - --- Scan 2025-11-24 | 🐂 BULL MARKET | Buying Top 5 Momentum
+2026-01-15 23:01:11,600 - INFO - 🔨 STARTING CLEAN DATA FORGE (2021-2023 ONLY)
+2026-01-15 23:01:15,765 - INFO - Fetched 501 symbols from NSE.
+2026-01-15 23:01:23,728 - ERROR - 
+1 Failed download:
+2026-01-15 23:01:23,728 - ERROR - ['FIRSTCRY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:01:38,391 - ERROR - 
+1 Failed download:
+2026-01-15 23:01:38,392 - ERROR - ['JSWCEMENT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:06,894 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:06,895 - ERROR - ['KFINTECH.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:15,787 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:15,788 - ERROR - ['EMCURE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:20,205 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:20,206 - ERROR - ['DOMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:27,122 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:27,123 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:38,821 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:38,821 - ERROR - ['POLICYBZR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:42,505 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:42,505 - ERROR - ['APTUS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:43,538 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:43,538 - ERROR - ['SAILIFE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:48,646 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:48,646 - ERROR - ['AADHARHFC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:50,750 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:50,750 - ERROR - ['MEDANTA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:51,669 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:51,669 - ERROR - ['LATENTVIEW.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:02:59,424 - ERROR - 
+1 Failed download:
+2026-01-15 23:02:59,424 - ERROR - ['NUVAMA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:02,654 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:02,655 - ERROR - ['AKUMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:04,982 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:04,983 - ERROR - ['OLAELEC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:05,970 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:05,971 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:06,796 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:06,797 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:09,815 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:09,816 - ERROR - ['ARE&M.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:11,190 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:11,190 - ERROR - ['IREDA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:12,938 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:12,938 - ERROR - ['DEVYANI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:15,891 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:15,892 - ERROR - ['UNITDSPR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1596565800, endDate = 1624213800")')
+2026-01-15 23:03:20,662 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:20,662 - ERROR - ['FIRSTCRY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:03:31,120 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:31,120 - ERROR - ['JSWCEMENT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:03:41,204 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:41,204 - ERROR - ['KFINTECH.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:03:47,920 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:47,920 - ERROR - ['EMCURE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:03:53,542 - ERROR - 
+1 Failed download:
+2026-01-15 23:03:53,543 - ERROR - ['DOMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:00,117 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:00,118 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:19,063 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:19,063 - ERROR - ['SAILIFE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:24,396 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:24,397 - ERROR - ['AADHARHFC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:26,627 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:26,627 - ERROR - ['MEDANTA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:31,723 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:31,725 - ERROR - ['NUVAMA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:36,057 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:36,057 - ERROR - ['AKUMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:39,225 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:39,225 - ERROR - ['OLAELEC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:40,398 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:40,398 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:41,333 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:41,333 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:46,037 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:46,038 - ERROR - ['ARE&M.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:47,440 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:47,440 - ERROR - ['IREDA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:50,848 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:50,848 - ERROR - ['UNITDSPR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1615228200, endDate = 1642876200")')
+2026-01-15 23:04:54,459 - ERROR - 
+1 Failed download:
+2026-01-15 23:04:54,460 - ERROR - ['FIRSTCRY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:05:04,539 - ERROR - 
+1 Failed download:
+2026-01-15 23:05:04,539 - ERROR - ['JSWCEMENT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:05:14,100 - ERROR - 
+1 Failed download:
+2026-01-15 23:05:14,101 - ERROR - ['KFINTECH.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:05:22,310 - ERROR - 
+1 Failed download:
+2026-01-15 23:05:22,312 - ERROR - ['EMCURE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:05:27,900 - ERROR - 
+1 Failed download:
+2026-01-15 23:05:27,900 - ERROR - ['DOMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:05:36,038 - ERROR - 
+1 Failed download:
+2026-01-15 23:05:36,038 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:05:54,785 - ERROR - 
+1 Failed download:
+2026-01-15 23:05:54,785 - ERROR - ['SAILIFE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:05:59,231 - ERROR - 
+1 Failed download:
+2026-01-15 23:05:59,232 - ERROR - ['AADHARHFC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:01,247 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:01,248 - ERROR - ['MEDANTA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:05,670 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:05,671 - ERROR - ['NUVAMA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:09,068 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:09,069 - ERROR - ['AKUMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:11,759 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:11,760 - ERROR - ['OLAELEC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:12,840 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:12,840 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:13,870 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:13,871 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:17,007 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:17,008 - ERROR - ['ARE&M.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:20,019 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:20,020 - ERROR - ['IREDA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:25,477 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:25,479 - ERROR - ['UNITDSPR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1628101800, endDate = 1655749800")')
+2026-01-15 23:06:31,142 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:31,143 - ERROR - ['FIRSTCRY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:06:42,714 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:42,714 - ERROR - ['JSWCEMENT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:06:55,392 - ERROR - 
+1 Failed download:
+2026-01-15 23:06:55,393 - ERROR - ['EMCURE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:00,857 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:00,859 - ERROR - ['DOMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:06,082 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:06,082 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:19,514 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:19,514 - ERROR - ['SAILIFE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:24,283 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:24,284 - ERROR - ['AADHARHFC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:31,528 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:31,528 - ERROR - ['NUVAMA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:35,555 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:35,556 - ERROR - ['AKUMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:38,467 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:38,467 - ERROR - ['OLAELEC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:40,068 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:40,068 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:41,206 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:41,206 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:44,676 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:44,677 - ERROR - ['ARE&M.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:46,079 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:46,080 - ERROR - ['IREDA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:49,444 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:49,445 - ERROR - ['UNITDSPR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1646677800, endDate = 1674325800")')
+2026-01-15 23:07:53,148 - ERROR - 
+1 Failed download:
+2026-01-15 23:07:53,149 - ERROR - ['FIRSTCRY.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:08:17,960 - ERROR - 
+1 Failed download:
+2026-01-15 23:08:17,960 - ERROR - ['JSWCEMENT.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:08:56,250 - ERROR - 
+1 Failed download:
+2026-01-15 23:08:56,250 - ERROR - ['EMCURE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:11,406 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:11,406 - ERROR - ['DOMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:17,922 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:17,923 - ERROR - ['NTPCGREEN.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:30,298 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:30,300 - ERROR - ['SAILIFE.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:35,896 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:35,897 - ERROR - ['AADHARHFC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:41,334 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:41,334 - ERROR - ['NUVAMA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:44,003 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:44,003 - ERROR - ['AKUMS.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:47,575 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:47,577 - ERROR - ['OLAELEC.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:48,218 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:48,218 - ERROR - ['AEGISVOPAK.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:49,150 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:49,151 - ERROR - ['THELEELA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:51,898 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:51,898 - ERROR - ['ARE&M.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:53,352 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:53,352 - ERROR - ['IREDA.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:09:55,673 - ERROR - 
+1 Failed download:
+2026-01-15 23:09:55,674 - ERROR - ['UNITDSPR.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn\'t exist for startDate = 1659637800, endDate = 1687285800")')
+2026-01-15 23:11:34,999 - INFO - Loaded pre-trained ML weights.
+2026-01-15 23:11:35,000 - INFO - ⚡ Loading cached data...
+2026-01-15 23:11:35,120 - INFO - 
+🚀 Simulating: 1 Week (5 Days) (Hold 5 Days)
+2026-01-15 23:11:35,171 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 23:13:08,202 - INFO - 
+🚀 Simulating: 2 Weeks (10 Days) (Hold 10 Days)
+2026-01-15 23:13:08,250 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 23:14:41,054 - INFO - 
+🚀 Simulating: 1 Month (20 Days) (Hold 20 Days)
+2026-01-15 23:14:41,106 - INFO - ML Brain calibrated and weights saved.
+2026-01-15 23:24:50,776 - INFO - 🧠 Training Random Forest Model (Upgrade from Logistic)...
+2026-01-15 23:24:51,324 - INFO - ✅ Model Trained. Training Precision: 100.00%
+2026-01-15 23:24:51,393 - INFO - 🧪 Running 36 Permutations...
+2026-01-16 00:17:56,858 - INFO - 🧠 Training Beta-Zeta (Bear Brain) to predict CRASHES...
+2026-01-16 00:17:56,859 - ERROR - ❌ No training data found! Run forge_clean_data.py in backtest folder first.
+2026-01-16 00:18:45,125 - INFO - 🧠 Training Beta-Zeta (Bear Brain) to predict CRASHES...
+2026-01-16 00:18:45,157 - ERROR - ❌ No training data found! Run forge_clean_data.py in backtest folder first.
+2026-01-16 00:22:34,581 - INFO - 🧠 Training Beta-Zeta (Bear Brain) to predict CRASHES...
+2026-01-16 00:22:34,597 - INFO - 🐻 Training Data: found 88 Bearish setups out of 652 samples.
+2026-01-16 00:22:35,114 - INFO - ✅ Bear Brain Trained. Precision: 100.00%
+2026-01-16 00:22:35,114 - INFO - 🚀 STARTING BETA-ZETA (SHORT) SIMULATION [2025]...
+2026-01-16 00:28:24,106 - INFO - 🧠 Training Beta-Zeta (Bear Brain) to predict CRASHES...
+2026-01-16 00:28:24,124 - INFO - 🐻 Training Data: found 88 Bearish setups out of 652 samples.
+2026-01-16 00:28:24,618 - INFO - ✅ Bear Brain Trained. Precision: 100.00%
+2026-01-16 00:28:24,619 - INFO - 🚀 STARTING BETA-ZETA (SHORT) SIMULATION [2025]...
+2026-01-16 00:36:49,935 - INFO - 🧠 Training Beta-Zeta (Bear Brain) to predict CRASHES...
+2026-01-16 00:36:49,954 - INFO - 🐻 Training Data: found 88 Bearish setups out of 652 samples.
+2026-01-16 00:36:50,393 - INFO - ✅ Bear Brain Trained. Precision: 100.00%
+2026-01-16 00:36:50,395 - INFO - 🚀 STARTING BETA-ZETA (SHORT) SIMULATION [2025]...
+2026-01-16 00:39:49,233 - INFO - 🧠 Training Beta-Zeta (Bear Brain) to predict CRASHES...
+2026-01-16 00:39:49,251 - INFO - 🐻 Training Data: found 88 Bearish setups out of 652 samples.
+2026-01-16 00:39:49,890 - INFO - ✅ Bear Brain Trained. Precision: 100.00%
+2026-01-16 00:39:49,890 - INFO - 🚀 STARTING BETA-ZETA (SHORT) SIMULATION [2025]...
+2026-01-16 00:53:30,584 - INFO - 🔨 STARTING CLEAN DATA FORGE (2021-2023 ONLY)
+2026-01-16 00:53:31,361 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 00:53:33,260 - ERROR - $HYUNDAI.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:34,209 - ERROR - $ANANDRATHI.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:36,534 - ERROR - $HONASA.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:37,854 - ERROR - $JYOTICNC.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:38,775 - ERROR - $AIIL.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:39,473 - ERROR - $LATENTVIEW.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:40,163 - ERROR - $NETWEB.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:42,806 - ERROR - $KPIL.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:43,839 - ERROR - $INOXINDIA.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:44,583 - ERROR - $DOMS.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:51,025 - ERROR - $DEVYANI.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:52,790 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:53,673 - ERROR - $LTFOODS.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:54,619 - ERROR - $PTCIL.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:55,531 - ERROR - $BAJAJHFL.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:56,680 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:57,728 - ERROR - $NYKAA.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:53:59,262 - ERROR - $DATAPATTNS.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:01,280 - ERROR - $VIJAYA.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:02,450 - ERROR - $CHOICEIN.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:03,114 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:05,105 - ERROR - $BHARTIHEXA.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:06,694 - ERROR - $KAYNES.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:07,373 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:08,506 - ERROR - $INDGN.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:10,081 - ERROR - $ACMESOLAR.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:11,028 - ERROR - $KFINTECH.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:12,650 - ERROR - $MANKIND.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:13,894 - ERROR - $AWL.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:16,732 - ERROR - $SIGNATURE.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:17,783 - ERROR - $PREMIERENE.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:18,765 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:22,642 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:24,088 - ERROR - $POLICYBZR.NS: possibly delisted; no price data found  (1d 2020-08-05 00:00:00 -> 2021-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1596565800, endDate = 1624213800")
+2026-01-16 00:54:28,323 - ERROR - $HYUNDAI.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:31,120 - ERROR - $HONASA.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:32,279 - ERROR - $JYOTICNC.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:33,226 - ERROR - $AIIL.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:34,146 - ERROR - $NETWEB.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:36,843 - ERROR - $KPIL.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:38,007 - ERROR - $INOXINDIA.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:38,696 - ERROR - $DOMS.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:44,887 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:45,782 - ERROR - $LTFOODS.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:46,666 - ERROR - $PTCIL.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:47,540 - ERROR - $BAJAJHFL.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:48,848 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:52,523 - ERROR - $CHOICEIN.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:53,483 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:55,405 - ERROR - $BHARTIHEXA.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:56,948 - ERROR - $KAYNES.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:57,583 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:54:58,897 - ERROR - $INDGN.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:00,411 - ERROR - $ACMESOLAR.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:01,505 - ERROR - $KFINTECH.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:03,494 - ERROR - $MANKIND.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:04,497 - ERROR - $AWL.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:06,992 - ERROR - $SIGNATURE.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:07,636 - ERROR - $PREMIERENE.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:08,519 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:12,205 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2021-03-09 00:00:00 -> 2022-01-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1615228200, endDate = 1642876200")
+2026-01-16 00:55:16,821 - ERROR - $HYUNDAI.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:19,297 - ERROR - $HONASA.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:20,385 - ERROR - $JYOTICNC.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:21,259 - ERROR - $AIIL.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:22,069 - ERROR - $NETWEB.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:24,461 - ERROR - $KPIL.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:25,858 - ERROR - $INOXINDIA.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:26,503 - ERROR - $DOMS.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:34,377 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:35,343 - ERROR - $LTFOODS.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:36,293 - ERROR - $PTCIL.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:37,236 - ERROR - $BAJAJHFL.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:38,440 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:42,423 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:44,210 - ERROR - $BHARTIHEXA.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:45,726 - ERROR - $KAYNES.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:46,576 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:47,745 - ERROR - $INDGN.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:49,236 - ERROR - $ACMESOLAR.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:50,510 - ERROR - $KFINTECH.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:52,490 - ERROR - $MANKIND.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:55,389 - ERROR - $SIGNATURE.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:56,095 - ERROR - $PREMIERENE.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:55:56,969 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:56:00,606 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2021-08-05 00:00:00 -> 2022-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1628101800, endDate = 1655749800")
+2026-01-16 00:56:05,739 - ERROR - $HYUNDAI.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:08,006 - ERROR - $HONASA.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:09,074 - ERROR - $JYOTICNC.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:09,942 - ERROR - $AIIL.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:10,790 - ERROR - $NETWEB.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:13,087 - ERROR - $KPIL.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:13,959 - ERROR - $INOXINDIA.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:14,654 - ERROR - $DOMS.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:20,902 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:21,800 - ERROR - $LTFOODS.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:22,654 - ERROR - $PTCIL.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:23,535 - ERROR - $BAJAJHFL.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:24,626 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:28,745 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:30,632 - ERROR - $BHARTIHEXA.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:32,411 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:33,485 - ERROR - $INDGN.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:35,011 - ERROR - $ACMESOLAR.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:37,037 - ERROR - $MANKIND.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:39,998 - ERROR - $SIGNATURE.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:40,841 - ERROR - $PREMIERENE.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:41,726 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:45,266 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2022-03-08 00:00:00 -> 2023-01-22 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1646677800, endDate = 1674325800")
+2026-01-16 00:56:50,161 - ERROR - $HYUNDAI.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:56:52,643 - ERROR - $HONASA.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:56:53,741 - ERROR - $JYOTICNC.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:56:54,732 - ERROR - $AIIL.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:56:55,579 - ERROR - $NETWEB.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:56:58,340 - ERROR - $INOXINDIA.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:56:59,073 - ERROR - $DOMS.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:05,922 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:06,811 - ERROR - $LTFOODS.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:08,319 - ERROR - $BAJAJHFL.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:09,511 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:13,833 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:15,591 - ERROR - $BHARTIHEXA.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:17,411 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:18,579 - ERROR - $INDGN.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:20,360 - ERROR - $ACMESOLAR.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:24,947 - ERROR - $SIGNATURE.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:25,579 - ERROR - $PREMIERENE.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:26,490 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:30,629 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2022-08-05 00:00:00 -> 2023-06-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1659637800, endDate = 1687285800")
+2026-01-16 00:57:35,421 - ERROR - $HYUNDAI.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:57:39,007 - ERROR - $AIIL.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:57:48,300 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:57:50,210 - ERROR - $BAJAJHFL.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:57:51,429 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:57:55,524 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:57:57,305 - ERROR - $BHARTIHEXA.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:57:59,045 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:58:00,150 - ERROR - $INDGN.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:58:01,956 - ERROR - $ACMESOLAR.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:58:06,649 - ERROR - $PREMIERENE.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:58:07,778 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:58:11,417 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2023-03-07 00:00:00 -> 2024-01-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1678127400, endDate = 1705775400")
+2026-01-16 00:58:16,417 - ERROR - $HYUNDAI.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:28,335 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:30,433 - ERROR - $BAJAJHFL.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:31,649 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:35,850 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:38,910 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:41,065 - ERROR - $ACMESOLAR.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:45,745 - ERROR - $PREMIERENE.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:46,804 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:58:50,542 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2023-08-08 00:00:00 -> 2024-06-23 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1691433000, endDate = 1719081000")
+2026-01-16 00:59:07,266 - ERROR - $TMPV.NS: possibly delisted; no price data found  (1d 2024-01-06 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1704479400, endDate = 1732127400")
+2026-01-16 00:59:09,704 - ERROR - $THELEELA.NS: possibly delisted; no price data found  (1d 2024-01-06 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1704479400, endDate = 1732127400")
+2026-01-16 00:59:13,852 - ERROR - $JSWCEMENT.NS: possibly delisted; no price data found  (1d 2024-01-06 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1704479400, endDate = 1732127400")
+2026-01-16 00:59:16,975 - ERROR - $IKS.NS: possibly delisted; no price data found  (1d 2024-01-06 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1704479400, endDate = 1732127400")
+2026-01-16 00:59:23,985 - ERROR - $ITCHOTELS.NS: possibly delisted; no price data found  (1d 2024-01-06 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1704479400, endDate = 1732127400")
+2026-01-16 00:59:27,812 - ERROR - $VMM.NS: possibly delisted; no price data found  (1d 2024-01-06 00:00:00 -> 2024-11-21 00:00:00) (Yahoo error = "Data doesn't exist for startDate = 1704479400, endDate = 1732127400")
+2026-01-16 01:01:15,322 - INFO - No Brain found. Please run Trainer (Mode 4).
+2026-01-16 01:01:15,340 - INFO - 🧠 Optimizing Neural Pathways (Training RF)...
+2026-01-16 01:01:16,111 - INFO - ✅ V10 Brain (Random Forest) Trained & Saved.
+2026-01-16 01:03:28,700 - INFO - Loaded V10 Random Forest Brain.
+2026-01-16 01:03:28,819 - INFO - 🚀 STARTING V10 VERIFICATION (2025 Clean Data)...
+2026-01-16 01:03:28,820 - INFO - ⚙️  Config: Hold 10d | SL 10% | TP 20% | Brain: Random Forest
+2026-01-16 01:06:12,400 - INFO - Loaded V10 Random Forest Brain.
+2026-01-16 01:06:12,489 - INFO - 🚀 STARTING V10 VERIFICATION (2025 Clean Data)...
+2026-01-16 01:06:12,490 - INFO - ⚙️  Config: Hold 10d | SL 10% | TP 20% | Brain: Random Forest
+2026-01-16 01:08:50,231 - INFO - Loaded V10 Random Forest Brain.
+2026-01-16 01:08:50,381 - INFO - 🚀 STARTING V10 VERIFICATION (2025 Clean Data)...
+2026-01-16 01:08:50,383 - INFO - ⚙️  Config: Hold 10d | SL 10% | TP 20% | Brain: Random Forest
+2026-01-16 01:15:27,019 - INFO - Loaded 498 stocks.
+2026-01-16 01:15:27,020 - INFO - Generating Synthetic Nifty 500 Index for RS Scoring...
+2026-01-16 01:15:27,428 - INFO - Synthetic Index Created.
+2026-01-16 01:16:59,500 - INFO - Loaded 498 stocks.
+2026-01-16 01:16:59,500 - INFO - Generating Synthetic Nifty 500 Index for RS Scoring...
+2026-01-16 01:16:59,861 - INFO - Synthetic Index Created.
+2026-01-16 02:04:25,216 - INFO - Loaded 498 stocks from shared cache.
+2026-01-16 02:09:54,956 - INFO - Loaded 498 stocks from shared cache.
+2026-01-16 02:15:14,949 - INFO - Loaded 498 stocks from shared cache.
+2026-01-16 02:21:11,318 - INFO - Loaded 498 stocks from shared cache.
+2026-01-16 02:22:34,521 - INFO - Loaded 498 stocks from shared cache.
+2026-01-16 02:25:21,361 - INFO - Loaded 498 stocks from shared cache.
+2026-01-16 02:39:10,310 - INFO - Loaded 498 stocks.
+2026-01-16 02:39:10,312 - INFO - Starting Brutal Gauntlet Scan...
+2026-01-16 02:40:48,850 - INFO - Loaded 498 stocks.
+2026-01-16 02:40:48,852 - INFO - Starting Brutal Gauntlet Scan...
+2026-01-16 09:23:26,943 - INFO - Loaded 498 stocks.
+2026-01-16 09:23:26,944 - INFO - Generating Synthetic Nifty 500 Index...
+2026-01-16 09:23:27,703 - INFO - Synthetic Index Created.
+2026-01-16 09:23:42,449 - INFO - Loaded 498 stocks.
+2026-01-16 09:23:42,450 - INFO - Generating Synthetic Nifty 500 Index...
+2026-01-16 09:23:43,286 - INFO - Synthetic Index Created.
+2026-01-16 09:26:06,970 - INFO - Loaded 498 stocks.
+2026-01-16 09:26:06,970 - INFO - Generating Synthetic Nifty 500 Index...
+2026-01-16 09:26:07,534 - INFO - Synthetic Index Created.
+2026-01-16 09:29:04,202 - INFO - Loaded 498 stocks.
+2026-01-16 09:29:04,202 - INFO - Generating Synthetic Nifty 500 Index...
+2026-01-16 09:29:04,739 - INFO - Synthetic Index Created.
+2026-01-16 09:35:31,965 - INFO - Loaded 498 stocks.
+2026-01-16 09:35:31,965 - INFO - Generating Synthetic Nifty 500 Index...
+2026-01-16 09:35:32,518 - INFO - Synthetic Index Created.
+2026-01-16 09:47:49,893 - INFO - Loaded 498 stocks.
+2026-01-16 09:47:49,898 - INFO - Starting Brutal Gauntlet Scan...
+2026-01-16 09:51:49,672 - INFO - Loaded 498 stocks.
+2026-01-16 09:51:49,672 - INFO - Generating Synthetic Nifty 500 Index...
+2026-01-16 11:35:09,906 - INFO - Loaded V10 Random Forest Brain.
+2026-01-16 11:36:48,891 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 11:38:02,333 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 11:38:02,702 - ERROR - 
+1 Failed download:
+2026-01-16 11:38:02,705 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 11:46:53,364 - INFO - Loaded V10 Random Forest Brain.
+2026-01-16 11:52:22,358 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 11:53:51,113 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 11:53:51,444 - ERROR - 
+1 Failed download:
+2026-01-16 11:53:51,445 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 12:31:01,546 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 12:33:24,378 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 12:33:25,182 - ERROR - 
+1 Failed download:
+2026-01-16 12:33:25,183 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 12:40:39,245 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 12:43:02,637 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 12:43:03,225 - ERROR - 
+1 Failed download:
+2026-01-16 12:43:03,226 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 14:38:51,340 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 14:41:00,439 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 14:41:01,098 - ERROR - 
+1 Failed download:
+2026-01-16 14:41:01,098 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 14:50:12,982 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 14:52:29,873 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 14:52:30,573 - ERROR - 
+1 Failed download:
+2026-01-16 14:52:30,574 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 15:23:40,572 - ERROR - Failed to fetch symbols from NSE: HTTPSConnectionPool(host='www.niftyindices.com', port=443): Read timed out. (read timeout=15). Using static fallback.
+2026-01-16 15:23:48,269 - ERROR - 
+1 Failed download:
+2026-01-16 15:23:48,272 - ERROR - ['SBI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-07-20 15:22:54.324282 -> 2026-01-16 15:23:24.823305)')
+2026-01-16 15:23:50,670 - INFO - Top pick (ICICIBANK) saved to persistence log.
+2026-01-16 15:31:00,733 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 15:32:41,478 - ERROR - 
+1 Failed download:
+2026-01-16 15:32:41,479 - ERROR - ['CDSL.NS']: ConnectionError('Failed to perform, curl: (56) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-01-16 15:32:41,494 - ERROR - 
+1 Failed download:
+2026-01-16 15:32:41,496 - ERROR - ['CENTURYPLY.NS']: DNSError('Failed to perform, curl: (6) getaddrinfo() thread failed to start. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-01-16 15:32:41,526 - ERROR - 
+1 Failed download:
+2026-01-16 15:32:41,526 - ERROR - ['CERA.NS']: DNSError('Failed to perform, curl: (6) getaddrinfo() thread failed to start. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-01-16 15:32:41,542 - ERROR - 
+1 Failed download:
+2026-01-16 15:32:41,543 - ERROR - ['CHALET.NS']: DNSError('Failed to perform, curl: (6) getaddrinfo() thread failed to start. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-01-16 15:32:41,558 - ERROR - 
+1 Failed download:
+2026-01-16 15:32:41,560 - ERROR - ['CHAMBLFERT.NS']: DNSError('Failed to perform, curl: (6) getaddrinfo() thread failed to start. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-01-16 15:32:53,631 - ERROR - 
+1 Failed download:
+2026-01-16 15:32:53,631 - ERROR - ['CHENNPETRO.NS']: Timeout('Failed to perform, curl: (28) Resolving timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-01-16 15:42:02,943 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 15:46:02,714 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 15:46:03,404 - ERROR - 
+1 Failed download:
+2026-01-16 15:46:03,404 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 15:54:51,411 - INFO - Top pick (SHRIRAMFIN) saved to persistence log.
+2026-01-16 16:07:10,724 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 16:11:22,412 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 16:11:23,120 - ERROR - 
+1 Failed download:
+2026-01-16 16:11:23,120 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 16:20:23,364 - INFO - Top pick (SHRIRAMFIN) saved to persistence log.
+2026-01-16 19:21:05,342 - INFO - Fetched 501 symbols from NSE.
+2026-01-16 19:24:55,715 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-16 19:24:56,388 - ERROR - 
+1 Failed download:
+2026-01-16 19:24:56,388 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-16 19:32:37,174 - INFO - Top pick (SHRIRAMFIN) saved to persistence log.
+2026-01-17 14:26:01,733 - INFO - Fetched 501 symbols from NSE.
+2026-01-17 14:29:58,588 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-17 14:29:59,463 - ERROR - 
+1 Failed download:
+2026-01-17 14:29:59,463 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-17 14:39:14,688 - INFO - Top pick (HINDCOPPER) saved to persistence log.
+2026-01-19 16:05:59,121 - INFO - Fetched 501 symbols from NSE.
+2026-01-19 16:08:40,482 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-19 16:08:41,107 - ERROR - 
+1 Failed download:
+2026-01-19 16:08:41,108 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-19 16:14:55,804 - INFO - Top pick (JINDALSAW) saved to persistence log.
+2026-01-20 15:33:12,827 - INFO - Fetched 501 symbols from NSE.
+2026-01-20 15:35:37,835 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-20 15:35:38,034 - ERROR - 
+1 Failed download:
+2026-01-20 15:35:38,034 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-20 15:40:02,094 - INFO - Top pick (HINDCOPPER) saved to persistence log.
+2026-01-20 15:42:01,098 - ERROR - Failed to fetch symbols from NSE: 'Symbol'. Using static fallback.
+2026-01-20 15:42:04,623 - ERROR - 
+1 Failed download:
+2026-01-20 15:42:04,623 - ERROR - ['SBI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-07-24 15:41:55.868674 -> 2026-01-20 15:42:00.270751)')
+2026-01-20 15:42:05,411 - INFO - Top pick (INFY) saved to persistence log.
+2026-01-20 15:42:25,013 - ERROR - Failed to fetch symbols from NSE: Error tokenizing data. C error: Expected 1 fields in line 4, saw 10
+. Using static fallback.
+2026-01-20 15:42:28,648 - ERROR - 
+1 Failed download:
+2026-01-20 15:42:28,648 - ERROR - ['SBI.NS']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-07-24 15:42:15.418842 -> 2026-01-20 15:42:18.333021)')
+2026-01-20 15:43:41,629 - INFO - Fetched 501 symbols from NSE.
+2026-01-20 15:46:28,703 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-20 15:46:29,394 - ERROR - 
+1 Failed download:
+2026-01-20 15:46:29,394 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-20 15:52:53,185 - INFO - Top pick (HINDZINC) saved to persistence log.
+2026-01-20 15:54:14,999 - INFO - Fetched 501 symbols from NSE.
+2026-01-20 15:56:50,766 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-20 15:56:51,576 - ERROR - 
+1 Failed download:
+2026-01-20 15:56:51,576 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-20 16:02:45,890 - INFO - Top pick (HINDZINC) saved to persistence log.
+2026-01-20 16:06:01,937 - INFO - Fetched 501 symbols from NSE.
+2026-01-20 16:08:42,919 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-20 16:08:43,545 - ERROR - 
+1 Failed download:
+2026-01-20 16:08:43,545 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-20 16:15:24,600 - INFO - Top pick (HINDZINC) saved to persistence log.
+2026-01-28 03:50:44,383 - INFO - Fetched 501 symbols from NSE.
+2026-01-28 03:52:20,858 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DUMMYHDLVR.NS"}}}
+2026-01-28 03:52:21,184 - ERROR - 
+1 Failed download:
+2026-01-28 03:52:21,184 - ERROR - ['DUMMYHDLVR.NS']: YFTzMissingError('possibly delisted; no timezone found')
+2026-01-28 03:55:08,605 - INFO - Top pick (KARURVYSYA) saved to persistence log.
