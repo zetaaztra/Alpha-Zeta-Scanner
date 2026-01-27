@@ -121,6 +121,22 @@ streamlit run streamlit_app.py
 
 ---
 
+## ⏰ Execution Strategy: The "3:15 PM Rule"
+
+**CRITICAL:** Do NOT run this scanner at 9:15 AM.
+
+| Time | Action | Why? |
+| :--- | :--- | :--- |
+| **9:15 - 10:00 AM** | 🛑 **WAIT** | **The Fake-Out Zone.** Institutions often gap stocks up to sell into retail liquidity. Data is noisy and unreliable. |
+| **12:00 PM** | ⚠️ **MONITOR** | Trend is forming, but reversal is still possible. |
+| **3:15 PM - 3:25 PM** | ✅ **RUN & ENTER** | **The Truth Zone.** If a stock is strong here, institutions are holding it overnight. The closing data is 95% confirmed. |
+| **After Market** | 📝 **PLAN** | Run the scanner to build your watchlist for the next morning (Buy if price sustains > Entry). |
+
+**Why 3:15 is superior to 9:15:**
+The Technical Core indicators (RSI, SMA, ROC) are designed for **Daily Closing** data. A 9:15 AM "Close" is barely a minute old and statistically insignificant. 3:15 PM represents the true "Voice of the Market."
+
+---
+
 ## 📚 Glossary of Metrics
 
 | Metric | Description | Role in Strategy |

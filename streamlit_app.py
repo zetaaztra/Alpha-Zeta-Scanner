@@ -269,6 +269,15 @@ def main():
         **3. Filter Modes:**
         *   **Prime Turbo:** Focuses on Max ROI (Greedy).
         *   **Prime Safe:** Stricter checks (Defensive).
+        
+        **4. ⏰ Execution Guide:**
+        *   **When to Run:** Best at **3:15 PM IST** (to confirm daily closing strength) or **After Market Hours** (for next day planning).
+        *   **⚡ When to Enter:**
+            *   *Aggressive:* At 3:25 PM if price holds the 'Entry' level.
+            *   *Safe:* Next Morning (9:30 AM) if price sustains above 'Entry'.
+        *   **🎯 When to Exit:**
+            *   *Profit:* Set GTT Order at 'Target'.
+            *   *Loss:* Exit if Day Close < 'SL'.
         """)
     
     if st.button("RUN SCANNER", type="primary"):
