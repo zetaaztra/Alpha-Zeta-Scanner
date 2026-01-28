@@ -42,8 +42,42 @@ TIMEFRAME_CONFIGS = {
 # --- DATA LAYER ---
 class DataEngine:
     @staticmethod
-    @st.cache_data(ttl=3600*24) # Cache symbols for 24 hours
+    @st.cache_data(ttl=3600*24)
+    def load_csv_data():
+        """Load pre-fetched CSV data from GitHub Actions"""
+        try:
+            csv_path = "data/nifty500_ohlcv.csv"
+            if not os.path.exists(csv_path):
+                return None
+            df = pd.read_csv(csv_path)
+            df['Date'] = pd.to_datetime(df['Date'])
+            return df
+        except Exception as e:
+            st.warning(f"Could not load CSV data: {e}")
+            return None
+    
+    @staticmethod
+    def load_metadata():
+        """Load metadata about data freshness"""
+        try:
+            meta_path = "data/metadata.json"
+            if not os.path.exists(meta_path):
+                return None
+            with open(meta_path, 'r') as f:
+                return json.load(f)
+        except:
+            return None
+    
+    @staticmethod
     def get_nifty_symbols():
+        """Get symbols from CSV (preferred) or fetch from NSE (fallback)"""
+        # Try to get from CSV first
+        df = DataEngine.load_csv_data()
+        if df is not None:
+            symbols = [f"{s}.NS" for s in df['Symbol'].unique()]
+            return symbols
+        
+        # Fallback to live NSE fetch
         try:
             url = "https://www.niftyindices.com/IndexConstituent/ind_nifty500list.csv"
             headers = {"User-Agent": "Mozilla/5.0"}
@@ -52,7 +86,7 @@ class DataEngine:
             symbols = [f"{s.strip()}.NS" for s in df['Symbol'] if pd.notna(s)]
             return symbols
         except Exception as e:
-            st.error(f"Failed to fetch symbols from NSE: {e}. Using static fallback.")
+            st.error(f"Failed to fetch symbols: {e}. Using static fallback.")
             return ["RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "ICICIBANK.NS", "INFY.NS", "SBI.NS", "ITC.NS", "M&M.NS"]
 
     @staticmethod
@@ -81,17 +115,41 @@ class DataEngine:
         return None, None
 
     @staticmethod
-    @st.cache_data(ttl=3600) # Cache individual stock data for 1 hour
     def fetch_stock_data(symbol, start_date, end_date):
+        """Fetch stock data from CSV (preferred) or yfinance (fallback)"""
+        # Try CSV first
+        csv_df = DataEngine.load_csv_data()
+        if csv_df is not None:
+            symbol_name = symbol.replace('.NS', '')
+            stock_data = csv_df[csv_df['Symbol'] == symbol_name].copy()
+            
+            if not stock_data.empty:
+                # Filter by date range
+                stock_data = stock_data[
+                    (stock_data['Date'] >= pd.to_datetime(start_date)) &
+                    (stock_data['Date'] <= pd.to_datetime(end_date))
+                ]
+                
+                if not stock_data.empty:
+                    # Convert to yfinance-like format
+                    stock_data.set_index('Date', inplace=True)
+                    stock_data = stock_data[['Open', 'High', 'Low', 'Close', 'Volume']]
+                    
+                    # Get metadata for fetch time
+                    metadata = DataEngine.load_metadata()
+                    if metadata:
+                        fetch_time_str = metadata.get('last_updated')
+                        fetch_time = datetime.datetime.strptime(fetch_time_str, '%Y-%m-%d %H:%M:%S')
+                        last_date = stock_data.index[-1].date()
+                        return stock_data, fetch_time, last_date
+        
+        # Fallback to live yfinance
         try:
             data = yf.download(symbol, start=start_date, end=end_date, progress=False, timeout=10)
             if data.empty: return None, None, None
             
-            # Capture Fetch Time (IST)
             utc_now = datetime.datetime.utcnow()
             fetch_time = utc_now + datetime.timedelta(hours=5, minutes=30)
-            
-            # Get the last data date (actual date of the price)
             last_date = data.index[-1].date()
             
             return data, fetch_time, last_date
@@ -290,12 +348,17 @@ def main():
         """)
     
     if st.button("RUN SCANNER", type="primary"):
-        # Get IST Time
-        utc_now = datetime.datetime.utcnow()
-        ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
-        scan_time_str = ist_now.strftime("%Y-%m-%d %H:%M:%S")
-
-        st.write(f"Fetching symbols... (Scan Time: {scan_time_str} IST)")
+        # Check data source
+        csv_exists = os.path.exists("data/nifty500_ohlcv.csv")
+        metadata = DataEngine.load_metadata()
+        
+        if csv_exists:
+            st.success("📂 Using pre-fetched data from GitHub Actions")
+            if metadata:
+                st.info(f"Data Last Updated: {metadata['last_updated']} IST")
+        else:
+            st.warning("⚠️ CSV data not found. Using live yfinance (slower)")
+        
         symbols = DataEngine.get_nifty_symbols()
         st.info(f"Found {len(symbols)} symbols. Starting analysis...")
         

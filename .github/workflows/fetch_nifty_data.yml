@@ -1,0 +1,57 @@
+name: Fetch Nifty 500 Data
+
+on:
+  schedule:
+    # Run 6 times daily during market hours (Mon-Fri)
+    # Times in UTC (IST - 5:30)
+    - cron: '45 5 * * 1-5'   # 11:15 AM IST
+    - cron: '45 6 * * 1-5'   # 12:15 PM IST
+    - cron: '45 7 * * 1-5'   #  1:15 PM IST
+    - cron: '45 8 * * 1-5'   #  2:15 PM IST
+    - cron: '45 9 * * 1-5'   #  3:15 PM IST
+    - cron: '15 10 * * 1-5'  #  3:45 PM IST
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas requests urllib3
+      
+      - name: Fetch Nifty 500 data
+        run: |
+          python scripts/fetch_nifty_data.py
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/nifty500_ohlcv.csv || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git commit -m "Update Nifty 500 data - $(date +'%Y-%m-%d %H:%M:%S IST')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: No changes detected
+        if: steps.check_changes.outputs.changed != 'true'
+        run: echo "No changes in data, skipping commit"
