@@ -1,5 +1,8 @@
 name: Fetch Nifty 500 Data
 
+permissions:
+  contents: write  # Required to push commits
+
 on:
   schedule:
     # Run 6 times daily during market hours (Mon-Fri)
