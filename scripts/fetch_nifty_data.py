@@ -5,6 +5,7 @@ from io import StringIO
 import datetime
 import json
 import sys
+import os
 from pathlib import Path
 
 def get_nifty_symbols():
@@ -21,10 +22,37 @@ def get_nifty_symbols():
         print(f"✗ Failed to fetch symbols: {e}")
         return []
 
-def fetch_all_data(symbols, days=200):
-    """Fetch OHLCV data for all symbols"""
+def load_existing_csv():
+    """Load existing CSV if it exists"""
+    csv_path = Path("data/nifty500_ohlcv.csv")
+    if csv_path.exists():
+        try:
+            df = pd.read_csv(csv_path)
+            df['Date'] = pd.to_datetime(df['Date'])
+            print(f"✓ Loaded existing CSV: {len(df)} rows")
+            return df
+        except Exception as e:
+            print(f"⚠ Could not load existing CSV: {e}")
+            return None
+    return None
+
+def fetch_all_data(symbols, days=200, existing_df=None):
+    """Fetch OHLCV data for all symbols (incremental if existing_df provided)"""
+    
+    # Determine fetch strategy
+    if existing_df is not None and not existing_df.empty:
+        # Incremental: Only fetch last 5 days
+        last_date = existing_df['Date'].max()
+        days_since = (datetime.date.today() - last_date.date()).days
+        fetch_days = min(days_since + 2, 10)  # Fetch at most 10 days incrementally
+        print(f"📥 Incremental fetch: Last data from {last_date.date()}, fetching {fetch_days} days")
+    else:
+        # Full fetch: Get all 200 days
+        fetch_days = days
+        print(f"📥 Full fetch: Getting {fetch_days} days of data")
+    
     end_date = datetime.date.today()
-    start_date = end_date - datetime.timedelta(days=days)
+    start_date = end_date - datetime.timedelta(days=fetch_days)
     
     all_data = []
     failed = []
@@ -62,9 +90,26 @@ def fetch_all_data(symbols, days=200):
         print("✗ No data fetched!")
         sys.exit(1)
     
-    combined = pd.concat(all_data, ignore_index=True)
-    print(f"✓ Successfully fetched data for {len(all_data)} stocks")
-    return combined
+    new_df = pd.concat(all_data, ignore_index=True)
+    new_df['Date'] = pd.to_datetime(new_df['Date'])
+    
+    # If incremental, merge with existing data
+    if existing_df is not None:
+        print(f"🔄 Merging with existing data...")
+        combined = pd.concat([existing_df, new_df], ignore_index=True)
+        # Remove duplicates (keep newest)
+        combined = combined.drop_duplicates(subset=['Symbol', 'Date'], keep='last')
+        combined = combined.sort_values(['Symbol', 'Date'])
+        
+        # Keep only last 200 days per symbol
+        cutoff_date = datetime.date.today() - datetime.timedelta(days=200)
+        combined = combined[combined['Date'] >= pd.to_datetime(cutoff_date)]
+        
+        print(f"✓ Merged: {len(combined)} total rows (removed old data)")
+        return combined
+    
+    print(f"✓ Fetched data for {len(all_data)} stocks")
+    return new_df
 
 def save_data(df, metadata):
     """Save CSV and metadata"""
@@ -94,13 +139,15 @@ def main():
         print("✗ No symbols to fetch. Exiting.")
         sys.exit(1)
     
-    # Fetch data
+    # Load existing CSV
+    existing_df = load_existing_csv()
+    
+    # Fetch data (incremental if possible)
     print(f"\nFetching OHLCV data for {len(symbols)} stocks...")
-    df = fetch_all_data(symbols)
+    df = fetch_all_data(symbols, days=200, existing_df=existing_df)
     
     # Create metadata
-    utc_now = datetime.datetime.utcnow()
-    ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+    ist_now = datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=5, minutes=30)
     
     metadata = {
         "last_updated": ist_now.strftime("%Y-%m-%d %H:%M:%S"),
@@ -110,7 +157,8 @@ def main():
         "date_range": {
             "start": df['Date'].min().strftime("%Y-%m-%d"),
             "end": df['Date'].max().strftime("%Y-%m-%d")
-        }
+        },
+        "fetch_mode": "incremental" if existing_df is not None else "full"
     }
     
     # Save
@@ -118,6 +166,8 @@ def main():
     
     print("\n" + "="*50)
     print("✓ Data fetch completed successfully!")
+    print(f"  Mode: {metadata['fetch_mode']}")
+    print(f"  Date range: {metadata['date_range']['start']} to {metadata['date_range']['end']}")
     print("="*50)
 
 if __name__ == "__main__":
