@@ -85,10 +85,14 @@ class DataEngine:
     def fetch_stock_data(symbol, start_date, end_date):
         try:
             data = yf.download(symbol, start=start_date, end=end_date, progress=False, timeout=10)
-            if data.empty: return None
-            return data
+            if data.empty: return None, None
+            
+            # Capture Fetch Time (IST)
+            utc_now = datetime.datetime.utcnow()
+            fetch_time = utc_now + datetime.timedelta(hours=5, minutes=30)
+            return data, fetch_time
         except Exception:
-            return None
+            return None, None
 
 # --- TECHNICAL CORE ---
 class TechnicalCore:
@@ -249,39 +253,45 @@ def main():
     # --- HELP & GUIDE ---
     with st.sidebar.expander("📘 How to Use & Recommendations", expanded=False):
         st.markdown("""
-        **1. Scanning Timeframes:**
-        *   **🚀 3-7 Days (Aggressive):**
-            *   *Best for:* Quick scalps/swings.
-            *   *Min Volume:* High (>10M) to ensure liquidity.
-            *   *Risk:* Use tighter Stop Losses.
-        *   **🏆 1-2 Weeks (Recommended):**
-            *   *Best for:* Standard swing trades.
-            *   *Min Volume:* Medium (>5M).
-            *   *Balance:* Good mix of speed and reliability.
-        *   **🐢 1 Month (Conservative):**
-            *   *Best for:* Position trading.
-            *   *Min Volume:* Lower (>1M) is okay.
+        **1. Min Volume (Turnover) Input:**
+        *   **Important:** This input is for **Turnover (Value in INR)**, not Share Count.
+        *   **Input Unit:** Millions (e.g., `100` = 100 Million INR Turnover).
+        *   **Recommendation:** Start with **100** or **500** to filter illiquid stocks.
         
-        **2. Capital Input:**
-        *   Enter your *Total Capital* to get auto-calculated position sizes (`Qty`).
-        *   *Note:* This does not hide stocks, only calculates how many you can buy.
+        **2. Scanning Timeframes:**
+        *   **3-7 Days (Aggressive):**
+            *   *Min Volume:* Use **500** (Need high liquidity for quick exits).
+            *   *Best for:* Quick scalps/swings.
+        *   **1-2 Weeks (Recommended):**
+            *   *Min Volume:* Use **100 - 300**.
+            *   *Best for:* Standard swing trades.
+        *   **1 Month (Conservative):**
+            *   *Min Volume:* Use **100** (or 50 for niche picks).
+            *   *Best for:* Position trading.
         
         **3. Filter Modes:**
-        *   **Prime Turbo:** Focuses on Max ROI (Greedy).
-        *   **Prime Safe:** Stricter checks (Defensive).
+        *   **Prime Turbo (Max ROI):**
+            *   *Min Volume:* Can use **100** to catch moving mid-caps.
+        *   **Prime Safe (Defensive):**
+            *   *Min Volume:* Stick to **500+** to ensure safety.
         
-        **4. ⏰ Execution Guide:**
-        *   **When to Run:** Best at **3:15 PM IST** (to confirm daily closing strength) or **After Market Hours** (for next day planning).
-        *   **⚡ When to Enter:**
-            *   *Aggressive:* At 3:25 PM if price holds the 'Entry' level.
-            *   *Safe:* Next Morning (9:30 AM) if price sustains above 'Entry'.
-        *   **🎯 When to Exit:**
-            *   *Profit:* Set GTT Order at 'Target'.
-            *   *Loss:* Exit if Day Close < 'SL'.
+        **4. Capital Input:**
+        *   Enter your *Total Capital* to get auto-calculated position sizes (`Qty`).
+        
+        **5. Execution Guide:**
+        *   **When to Run:** Best at **3:15 PM IST** or **After Market Hours**.
+        *   **When to Enter:**
+            *   *Aggressive:* At 3:25 PM if price holds level.
+            *   *Safe:* Next Morning (9:30 AM).
         """)
     
     if st.button("RUN SCANNER", type="primary"):
-        st.write("Fetching symbols...")
+        # Get IST Time
+        utc_now = datetime.datetime.utcnow()
+        ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+        scan_time_str = ist_now.strftime("%Y-%m-%d %H:%M:%S")
+
+        st.write(f"Fetching symbols... (Scan Time: {scan_time_str} IST)")
         symbols = DataEngine.get_nifty_symbols()
         st.info(f"Found {len(symbols)} symbols. Starting analysis...")
         
@@ -299,7 +309,7 @@ def main():
             progress_bar.progress((i + 1) / total)
             
             # Fetch Data (Cached)
-            data = DataEngine.fetch_stock_data(sym, start_date, end_date)
+            data, fetch_time = DataEngine.fetch_stock_data(sym, start_date, end_date)
             
             if data is None:
                 stats_counter["Data/Error"] += 1
@@ -346,9 +356,14 @@ def main():
             sl = entry * (1 - config['stop_loss_pct'])
             qty = int(allocation_per_stock / entry) if entry > 0 else 0
             
+            # Store fetch time for display (use the first stock's fetch time as representative)
+            if 'data_fetch_time' not in locals():
+                data_fetch_time = fetch_time
+            
             picks.append({
                 'Symbol': sym.replace('.NS', ''),
                 'Score': round(score, 4),
+                'Spot Price': round(float(metrics['price']), 2),
                 'Entry': round(float(metrics['price']), 2),
                 'Qty': qty,
                 'RSI': round(metrics['rsi'], 1),
@@ -369,9 +384,13 @@ def main():
             
             st.success(f"Scanning Complete! Found {len(df)} opportunities.")
             
-            st.markdown("### 🏆 Top Opportunities")
+            # Display Data Fetch Time
+            if 'data_fetch_time' in locals() and data_fetch_time:
+                st.info(f"📊 Data Fetch Time: {data_fetch_time.strftime('%Y-%m-%d %H:%M:%S')} IST")
+            
+            st.markdown("### Top Opportunities")
             st.dataframe(
-                df.style.highlight_max(axis=0, subset=['Score']).format({"Entry": "{:.2f}", "Target": "{:.2f}", "SL": "{:.2f}", "Score": "{:.2f}"}).hide(axis="index"), 
+                df.style.highlight_max(axis=0, subset=['Score']).format({"Spot Price": "{:.2f}", "Entry": "{:.2f}", "Target": "{:.2f}", "SL": "{:.2f}", "Score": "{:.2f}"}).hide(axis="index"), 
                 use_container_width=True
             )
             
