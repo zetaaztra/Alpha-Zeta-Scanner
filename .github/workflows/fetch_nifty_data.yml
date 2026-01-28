@@ -39,7 +39,10 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet data/nifty500_ohlcv.csv || echo "changed=true" >> $GITHUB_OUTPUT
+          git add data/
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: Commit and push changes
         if: steps.check_changes.outputs.changed == 'true'
