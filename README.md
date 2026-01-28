@@ -271,6 +271,33 @@ Alpha_Zeta_Super_Scanner/
 
 ---
 
+## 🔄 Strategy Longevity & Adaptation
+
+No strategy is truly "eternal" without adaptation. Alpha-Zeta is designed with **Self-Correction** and **Market-Awareness** to prevent obsolescence.
+
+### 1. **Self-Correcting (Adaptive Weighting)**
+The system learns from its own trades. After logging sufficient trade data (via the Zeta Aleph engine), it runs a small ML model (`LogisticRegression`) on its history to see which formulas are currently working and adjusts their weights:
+- **Bull Market**: Weights "Velocity" (F1) higher for explosive gains.
+- **Sideways Market**: Shifts weight to "Mean Reversion" (F5/F6) for safety.
+
+### 2. **Daily Refinement**
+You don't need to change the code daily; the **Scanner** does it for you:
+- Fetches fresh OHLCV data from the NSE 6x daily.
+- Recalculates **SMA 50** and **EMA** guards instantly.
+- If a stock's trend breaks, it is removed from the list in real-time.
+
+### 3. **Market Regime Protection**
+The system uses a **Gaussian Hidden Markov Model (HMM)** to detect the "Market Regime" (Bull/Bear/Chaos):
+- **Safety Net**: If the market turns "Bearish" or "Chaotic," the scanner will return "No valid results found."
+- **Capital Preservation**: Protects your money until the market becomes favorable again.
+
+---
+
+> [!TIP]
+> **Pro Tip:** Every 3-6 months, run the `v10_optimizer.py` script. This will "Retrain" the Random Forest model on the most recent 1-2 years of price action to ensures the weights are perfectly dialed in for the latest market cycle.
+
+---
+
 ## 📜 License & Disclaimer
 
 This tool is for educational and research purposes. Trading in equities involves risk. Past performance does not guarantee future returns. The author is not responsible for any financial losses.
