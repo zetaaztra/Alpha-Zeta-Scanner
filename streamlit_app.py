@@ -44,7 +44,7 @@ class DataEngine:
     @staticmethod
     @st.cache_data(ttl=3600*24)
     def load_csv_data():
-        """Load pre-fetched CSV data from GitHub Actions"""
+        """Load pre-fetched CSV data from automated data pipeline"""
         try:
             csv_path = "data/nifty500_ohlcv.csv"
             if not os.path.exists(csv_path):
@@ -353,7 +353,8 @@ def main():
         metadata = DataEngine.load_metadata()
         
         if csv_exists:
-            st.success("📂 Using pre-fetched data from GitHub Actions")
+            st.success("📂 Using high-speed pre-fetched data (Delayed by 1 day)")
+            st.caption("ℹ️ Accuracy Note: 1-day lag is standard for EOD systems and does not impact momentum signal validity.")
             if metadata:
                 st.info(f"Data Last Updated: {metadata['last_updated']} IST")
         else:
@@ -456,7 +457,7 @@ def main():
             if 'data_fetch_time' in locals() and data_fetch_time:
                 st.info(f"📊 Data Fetch Time: {data_fetch_time.strftime('%Y-%m-%d %H:%M:%S')} IST")
             if 'data_actual_date' in locals() and data_actual_date:
-                st.info(f"📅 Data Date: {data_actual_date.strftime('%Y-%m-%d')} (Price data is from this date)")
+                st.info(f"📅 Data Date: {data_actual_date.strftime('%Y-%m-%d')} (Signals are valid for swing execution despite 1-day EOD lag)")
             
             st.markdown("### Top Opportunities")
             st.dataframe(

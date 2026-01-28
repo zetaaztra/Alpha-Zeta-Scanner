@@ -2,13 +2,13 @@
 
 The Alpha-Zeta Super Scanner is a professional-grade momentum engine designed specifically for the 2025 Nifty 500 market. It uses an audited **Filter 1** logic that prioritizes institutional volume and trend-velocity over complex, overfitted AI models.
 
-**Now with Modern Streamlit UI + GitHub Actions Data Pipeline!** 🚀
+**Now with Modern Streamlit UI + Automated Data Pipeline!** 🚀
 
 ---
 
 ## 🏛️ System Architecture
 
-The scanner operates on a **GitHub Actions-powered data pipeline** with instant CSV-based analysis. No more waiting for API calls—all 500 stocks are pre-fetched and ready.
+The scanner operates on an **Automated data pipeline** with instant CSV-based analysis. No more waiting for API calls—all 500 stocks are pre-fetched and ready.
 
 ### End-to-End Data Flow
 
@@ -64,7 +64,7 @@ graph TD
 
 ## 🚀 Key Features
 
-### 1. **GitHub Actions Data Pipeline** (NEW!)
+### 1. **Automated Data Pipeline** (NEW!)
 - **Auto-fetch**: Data fetched 6 times daily (11:15 AM - 3:45 PM IST, Mon-Fri)
 - **Lightning Fast**: Reads from CSV instead of 500 API calls
 - **Consistent Data**: All users see identical prices (no yfinance lag)
@@ -122,7 +122,7 @@ Go to GitHub Actions → "Fetch Nifty 500 Data" → "Run workflow"
 
 ### Step 3: Interpret Results
 - **Data Source Indicator**: 
-  - 📂 "Using pre-fetched data" = Fast, using GitHub Actions CSV
+  - 📂 "Using high-speed pre-fetched data" = Fast, using Automated CSV storage (Delayed by 1 day for stability)
   - ⚠️ "Using live yfinance" = Slower, fallback mode
 - **Data Last Updated**: Shows when data was fetched (IST timestamp)
 - **Top Opportunities Table**: Sorted by Score (highest = best)

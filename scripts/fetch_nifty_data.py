@@ -130,7 +130,7 @@ def save_data(df, metadata):
 
 def main():
     print("="*50)
-    print("Nifty 500 Data Fetch - GitHub Actions")
+    print("Nifty 500 Data Fetch - Automated")
     print("="*50)
     
     # Get symbols
