@@ -85,14 +85,18 @@ class DataEngine:
     def fetch_stock_data(symbol, start_date, end_date):
         try:
             data = yf.download(symbol, start=start_date, end=end_date, progress=False, timeout=10)
-            if data.empty: return None, None
+            if data.empty: return None, None, None
             
             # Capture Fetch Time (IST)
             utc_now = datetime.datetime.utcnow()
             fetch_time = utc_now + datetime.timedelta(hours=5, minutes=30)
-            return data, fetch_time
+            
+            # Get the last data date (actual date of the price)
+            last_date = data.index[-1].date()
+            
+            return data, fetch_time, last_date
         except Exception:
-            return None, None
+            return None, None, None
 
 # --- TECHNICAL CORE ---
 class TechnicalCore:
@@ -309,7 +313,7 @@ def main():
             progress_bar.progress((i + 1) / total)
             
             # Fetch Data (Cached)
-            data, fetch_time = DataEngine.fetch_stock_data(sym, start_date, end_date)
+            data, fetch_time, data_date = DataEngine.fetch_stock_data(sym, start_date, end_date)
             
             if data is None:
                 stats_counter["Data/Error"] += 1
@@ -356,9 +360,10 @@ def main():
             sl = entry * (1 - config['stop_loss_pct'])
             qty = int(allocation_per_stock / entry) if entry > 0 else 0
             
-            # Store fetch time for display (use the first stock's fetch time as representative)
+            # Store fetch time and data date for display (use the first stock's info)
             if 'data_fetch_time' not in locals():
                 data_fetch_time = fetch_time
+                data_actual_date = data_date
             
             picks.append({
                 'Symbol': sym.replace('.NS', ''),
@@ -384,9 +389,11 @@ def main():
             
             st.success(f"Scanning Complete! Found {len(df)} opportunities.")
             
-            # Display Data Fetch Time
+            # Display Data Fetch Time and Data Date
             if 'data_fetch_time' in locals() and data_fetch_time:
                 st.info(f"📊 Data Fetch Time: {data_fetch_time.strftime('%Y-%m-%d %H:%M:%S')} IST")
+            if 'data_actual_date' in locals() and data_actual_date:
+                st.info(f"📅 Data Date: {data_actual_date.strftime('%Y-%m-%d')} (Price data is from this date)")
             
             st.markdown("### Top Opportunities")
             st.dataframe(
