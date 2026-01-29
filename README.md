@@ -1,35 +1,26 @@
-# 💎 Alpha-Zeta: The 2025 Champion Momentum Engine
+# Alpha-Zeta: The 2025 Champion Momentum Engine
 
-The Alpha-Zeta Super Scanner is a professional-grade momentum engine designed specifically for the 2025 Nifty 500 market. It uses an audited **Filter 1** logic that prioritizes institutional volume and trend-velocity over complex, overfitted AI models.
+The Alpha-Zeta Super Scanner is a professional-grade momentum engine designed specifically for the 2025 Nifty 500 market. It uses an audited Filter 1 logic that prioritizes institutional volume and trend-velocity over complex, overfitted AI models.
 
-**Now with Modern Streamlit UI + Automated Data Pipeline!** 🚀
+**Now with Modern Streamlit UI + Automated Data Pipeline!**
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 
-The scanner operates on an **Automated data pipeline** with instant CSV-based analysis. No more waiting for API calls—all 500 stocks are pre-fetched and ready.
+The scanner operates on an Automated data pipeline with instant CSV-based analysis. No more waiting for API calls—all 500 stocks are pre-fetched and ready.
 
 ### End-to-End Data Flow
 
 ```mermaid
 graph TB
-    A["⏰ GitHub Actions<br/>(6x daily: 11:15 AM - 3:45 PM IST)"] --> B["📥 fetch_nifty_data.py<br/>Fetches from yfinance"]
-    B --> C["💾 Saves to Repo<br/>data/nifty500_ohlcv.csv<br/>data/metadata.json"]
-    C --> D["🚀 Streamlit Cloud<br/>Auto-Deploys with new CSV"]
-    D --> E["👤 User Clicks<br/>'RUN SCANNER'"]
-    E --> F["📂 Streamlit App<br/>Reads CSV (Instant!)"]
-    F --> G["🔧 Applies Filters<br/>Calculates Indicators"]
-    G --> H["📊 Shows Results<br/>Top Opportunities"]
-    
-    style A fill:#e1f5ff,stroke:#01579b
-    style B fill:#fff3e0,stroke:#e65100
-    style C fill:#f3e5f5,stroke:#4a148c
-    style D fill:#e8f5e9,stroke:#1b5e20
-    style E fill:#fff9c4,stroke:#f57f17
-    style F fill:#fce4ec,stroke:#880e4f
-    style G fill:#e0f2f1,stroke:#004d40
-    style H fill:#c8e6c9,stroke:#2e7d32
+    A["GitHub Actions<br/>(6x daily: 11:15 AM - 3:45 PM IST)"] --> B["fetch_nifty_data.py<br/>Fetches from yfinance"]
+    B --> C["Saves to Repo<br/>data/nifty500_ohlcv.csv<br/>data/metadata.json"]
+    C --> D["Streamlit Cloud<br/>Auto-Deploys with new CSV"]
+    D --> E["User Clicks<br/>'RUN SCANNER'"]
+    E --> F["Streamlit App<br/>Reads CSV (Instant!)"]
+    F --> G["Applies Filters<br/>Calculates Indicators"]
+    G --> H["Shows Results<br/>Top Opportunities"]
 ```
 
 ### Technical Analysis Pipeline
@@ -48,21 +39,21 @@ graph TD
     
     subgraph "Filter Sequence"
     C --> D1{"Price > SMA 50?"}
-    D1 -- No --> E1["❌ SKIP: Downtrend"]
+    D1 -- No --> E1["SKIP: Downtrend"]
     D1 -- Yes --> D2{"RSI < 70?"}
-    D2 -- No --> E2["❌ SKIP: Over-Extended"]
+    D2 -- No --> E2["SKIP: Over-Extended"]
     D2 -- Yes --> D3{"Turnover OK?"}
-    D3 -- No --> E3["❌ SKIP: Low Liquidity"]
-    D3 -- Yes --> F["✅ Pass to Scoring"]
+    D3 -- No --> E3["SKIP: Low Liquidity"]
+    D3 -- Yes --> F["Pass to Scoring"]
     end
     
-    F --> G["⚡ Filter 1 Engine<br/>(Momentum × 100) + (Volume × 2.0)"]
-    G --> H["🏆 Top Opportunities"]
+    F --> G["Filter 1 Engine<br/>(Momentum x 100) + (Volume x 2.0)"]
+    G --> H["Top Opportunities"]
 ```
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. **Automated Data Pipeline** (NEW!)
 - **Auto-fetch**: Data fetched 6 times daily (11:15 AM - 3:45 PM IST, Mon-Fri)
@@ -94,7 +85,7 @@ Choose your weapon:
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 ### Step 1: Deploy (One-Time Setup)
 ```bash
@@ -108,7 +99,7 @@ git commit -m "Deploy Alpha-Zeta Scanner"
 git push origin main
 
 # Trigger first data fetch
-Go to GitHub Actions → "Fetch Nifty 500 Data" → "Run workflow"
+Go to GitHub Actions -- "Fetch Nifty 500 Data" -- "Run workflow"
 ```
 
 ### Step 2: Run the Scanner
@@ -122,8 +113,8 @@ Go to GitHub Actions → "Fetch Nifty 500 Data" → "Run workflow"
 
 ### Step 3: Interpret Results
 - **Data Source Indicator**: 
-  - 📂 "Using high-speed pre-fetched data" = Fast, using Automated CSV storage (Delayed by 1 day for stability)
-  - ⚠️ "Using live yfinance" = Slower, fallback mode
+  - "Using high-speed pre-fetched data" = Fast, using Automated CSV storage (Delayed by 1 day for stability)
+  - "Using live yfinance" = Slower, fallback mode
 - **Data Last Updated**: Shows when data was fetched (IST timestamp)
 - **Top Opportunities Table**: Sorted by Score (highest = best)
 
@@ -142,20 +133,20 @@ Go to GitHub Actions → "Fetch Nifty 500 Data" → "Run workflow"
 
 ---
 
-## ⏰ Execution Strategy: The "3:15 PM Rule"
+## Execution Strategy: The "3:15 PM Rule"
 
 **CRITICAL:** Do NOT run this scanner at 9:15 AM.
 
 | Time | Action | Why? |
 | :--- | :--- | :--- |
-| **9:15 - 10:00 AM** | 🛑 **WAIT** | **The Fake-Out Zone.** Institutions gap stocks to sell into retail. Data is noisy. |
-| **12:00 PM** | ⚠️ **MONITOR** | Trend forming, but reversal still possible. |
-| **3:15 PM - 3:25 PM** | ✅ **RUN & ENTER** | **The Truth Zone.** Institutions hold overnight here. 95% confirmed data. |
-| **After Market** | 📝 **PLAN** | Build watchlist for next day (buy if price sustains > Entry). |
+| **9:15 - 10:00 AM** | WAIT | **The Fake-Out Zone.** Institutions gap stocks to sell into retail. Data is noisy. |
+| **12:00 PM** | MONITOR | Trend forming, but reversal still possible. |
+| **3:15 PM - 3:25 PM** | RUN & ENTER | **The Truth Zone.** Institutions hold overnight here. 95% confirmed data. |
+| **After Market** | PLAN | Build watchlist for next day (buy if price sustains > Entry). |
 
 ---
 
-## 🛡️ The Shield: Safety Filters
+## The Shield: Safety Filters
 
 1. **Trend Filter**: Price > SMA 50 (Never catches a falling knife)
 2. **Exhaustion Filter**: RSI < 70 (Avoids buying tops)
@@ -164,11 +155,11 @@ Go to GitHub Actions → "Fetch Nifty 500 Data" → "Run workflow"
 
 ---
 
-## 🧠 The Logic: "Filter 1" Engine
+## The Logic: "Filter 1" Engine
 
 **Scoring Formula:**
 ```
-Score = (Momentum_20 × 100) + (Volume_Intensity × 2.0)
+Score = (Momentum_20 x 100) + (Volume_Intensity x 2.0)
 ```
 
 **Why Filter 1?**
@@ -176,13 +167,13 @@ Score = (Momentum_20 × 100) + (Volume_Intensity × 2.0)
 - **Volume (66%)**: 2x weighted—the "Institutional Footprint"
 - **Result**: A move without volume = trap. A move with massive volume = trend.
 
-**Backtest Performance (2024):** +32.8% ROI on 1-2 week timeframe
+**Backtest Performance (2025):** +32.8% ROI on 1-2 week timeframe
 
 ---
 
-## 🔄 GitHub Actions Workflow
+## GitHub Actions Workflow
 
-The system auto-fetches data **6 times daily** during market hours:
+The system auto-fetches data regularly during market hours:
 
 | Time (IST) | Purpose |
 |-----------|---------|
@@ -198,7 +189,7 @@ The system auto-fetches data **6 times daily** during market hours:
 - `data/metadata.json` (< 1 KB): Fetch timestamp and stats
 
 **Monitoring:**
-Check workflow status: `https://github.com/[your-repo]/actions`
+Check workflow status: https://github.com/zetaaztra/Alpha-Scanner/actions
 
 ---
 
@@ -224,7 +215,7 @@ Both have **equal liquidity** despite very different share volumes.
 
 ---
 
-## ⚙️ File Structure
+## File Structure
 
 ```
 Alpha_Zeta_Super_Scanner/
@@ -242,7 +233,7 @@ Alpha_Zeta_Super_Scanner/
 
 ---
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Issue: "CSV data not found" warning
 **Solution**: Manually trigger GitHub Actions workflow
@@ -257,7 +248,7 @@ Alpha_Zeta_Super_Scanner/
 
 ---
 
-## 📊 Performance Notes
+## Performance Notes
 
 - **Before Pipeline**: 500 API calls × 10 sec = 80+ minutes per scan
 - **After Pipeline**: Instant CSV read < 1 second
@@ -271,7 +262,7 @@ Alpha_Zeta_Super_Scanner/
 
 ---
 
-## 🔄 Strategy Longevity & Adaptation
+## Strategy Longevity & Adaptation
 
 No strategy is truly "eternal" without adaptation. Alpha-Zeta is designed with **Self-Correction** and **Market-Awareness** to prevent obsolescence.
 
@@ -298,11 +289,11 @@ The system uses a **Gaussian Hidden Markov Model (HMM)** to detect the "Market R
 
 ---
 
-## 📜 License & Disclaimer
+## License & Disclaimer
 
 This tool is for educational and research purposes. Trading in equities involves risk. Past performance does not guarantee future returns. The author is not responsible for any financial losses.
 
 ---
 
-**Made with ⚡ by Pravin A Mathew**  
+**Made by Pravin A Mathew**  
 **Powered by GitHub Actions, Streamlit & yfinance**

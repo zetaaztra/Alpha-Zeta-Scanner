@@ -294,7 +294,7 @@ class FormulaFactory:
 
 # --- UI & MAIN APP ---
 def main():
-    st.title("🚀 Alpha-Zeta Super Scanner")
+    st.title("Alpha-Zeta Super Scanner")
     st.markdown("### 2025 Champion Engine | Filter 1 Integration")
     
     # Sidebar Controls
@@ -334,12 +334,12 @@ def main():
         start_date = st.date_input("Start Date", default_start)
         end_date = datetime.date.today()
         
-        if st.button("🗑️ Clear Cache"):
+        if st.button("Clear Cache"):
             st.cache_data.clear()
             st.success("Cache cleared!")
 
     # --- HELP & GUIDE ---
-    with st.sidebar.expander("📘 How to Use & Recommendations", expanded=False):
+    with st.sidebar.expander("How to Use & Recommendations", expanded=False):
         st.markdown("""
         **1. Min Volume (Turnover) Input:**
         *   **Important:** This input is for **Turnover (Value in INR)**, not Share Count.
@@ -373,14 +373,14 @@ def main():
             *   *Safe:* Next Morning (9:30 AM).
             
         **6. How to Select Stocks (The Score Card):**
-        *   **🏆 Decoding the Score:**
+        *   **Decoding the Score:**
             *   **Golden Zone (25+):** Excellent. High momentum + Institutional volume. Explosive breakouts.
             *   **Strong Zone (15-25):** Very Good. Solid steady trends. Reliable swing trades.
             *   **Early Zone (5-15):** Good. Momentum starting to build.
-        *   **🚦 Risk/Warning Signs:**
+        *   **Risk/Warning Signs:**
             *   **High Score + High RSI (>68):** Stock is "Hot". Don't chase. Wait for a pullback to the 'Entry' price.
             *   **Low Score + Low Volume:** Stock is drifting, not driven. Higher risk.
-        *   **💡 Pro Tip:**
+        *   **Pro Tip:**
             *   **The Sweet Spot:** The most reliable winners often have a **Score > 20** with **RSI between 55 and 65**.
         """)
     
@@ -390,12 +390,12 @@ def main():
         metadata = DataEngine.load_metadata()
         
         if csv_exists:
-            st.success("📂 Using high-speed pre-fetched data (Delayed by 1 day)")
-            st.caption("ℹ️ Accuracy Note: 1-day lag is standard for EOD systems and does not impact momentum signal validity.")
+            st.success("Using high-speed pre-fetched data (Delayed by 1 day)")
+            st.caption("Accuracy Note: 1-day lag is standard for EOD systems and does not impact momentum signal validity.")
             if metadata:
                 st.info(f"Data Last Updated: {metadata['last_updated']} IST")
         else:
-            st.warning("⚠️ CSV data not found. Using live yfinance (slower)")
+            st.warning("CSV data not found. Using live yfinance (slower)")
         
         symbols = DataEngine.get_nifty_symbols()
         st.info(f"Found {len(symbols)} symbols. Starting analysis...")
@@ -492,9 +492,9 @@ def main():
             
             # Display Data Fetch Time and Data Date
             if 'data_fetch_time' in locals() and data_fetch_time:
-                st.info(f"📊 Data Fetch Time: {data_fetch_time.strftime('%Y-%m-%d %H:%M:%S')} IST")
+                st.info(f"Data Fetch Time: {data_fetch_time.strftime('%Y-%m-%d %H:%M:%S')} IST")
             if 'data_actual_date' in locals() and data_actual_date:
-                st.info(f"📅 Data Date: {data_actual_date.strftime('%Y-%m-%d')} (Signals are valid for swing execution despite 1-day EOD lag)")
+                st.info(f"Data Date: {data_actual_date.strftime('%Y-%m-%d')} (Signals are valid for swing execution despite 1-day EOD lag)")
             
             st.markdown("### Top Opportunities")
             st.dataframe(
@@ -523,10 +523,10 @@ def main():
     st.markdown("<h5 style='text-align: center; color: grey;'>App by Pravin A Mathew</h5>", unsafe_allow_html=True)
     st.markdown("""
         <div style='text-align: center; color: #cc0000; font-size: 1.1rem; padding: 10px;'>
-            <strong>🚨 THIS IS FOR SWING TRADING AND NOT FOR INTRADAY TRADING 🚨</strong>
+            <strong>THIS IS FOR SWING TRADING AND NOT FOR INTRADAY TRADING</strong>
         </div>
         <div style='text-align: center; color: #888; font-size: 0.8rem; padding: 10px 20px;'>
-            <strong>⚖️ SEBI Compliance & Risk Disclaimer:</strong><br>
+            <strong>SEBI Compliance & Risk Disclaimer:</strong><br>
             I am not a SEBI Registered Investment Advisor. This scanner is an automated tool designed for <strong>Educational & Research purposes only</strong>. 
             The signals generated do not constitute financial advice or buy/sell recommendations. 
             Paper trading is recommended before committing real capital. Trading in equities involves significant risk. 
@@ -534,11 +534,11 @@ def main():
             <strong>Do your own research (DYOR)</strong> and consult a certified professional before investing.
         </div>
         <div style='text-align: center; color: #888; font-size: 0.8rem; padding: 0 20px 20px 20px;'>
-            <strong>📈 Strategy Expectations & Global Standards:</strong><br>
+            <strong>Strategy Expectations & Global Standards:</strong><br>
             In the professional trading world (Hedge Funds/Institutions), most successful strategies operate with a <strong>50% to 60% win rate</strong>. 
             Alpha-Zeta's <strong>60% winning rate</strong> is a top-tier industry benchmark. <br>
             Comparing to the world standard: No professional system achieves 90-100% accuracy. The goal is <strong>positive expectancy</strong>—winning enough to grow capital over time. 
-            The Filter 1 logic delivered a <strong>2024 ROI of +32.8%</strong> by following this professional standard.
+            The Filter 1 logic delivered a <strong>Last Year (2025) ROI of +32.8%</strong> by following this professional standard.
         </div>
     """, unsafe_allow_html=True)
 

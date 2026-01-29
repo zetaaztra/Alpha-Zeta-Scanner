@@ -22,25 +22,25 @@ def get_nifty_symbols():
                 if response.status_code == 200:
                     df = pd.read_csv(StringIO(response.text))
                     symbols = [f"{s.strip()}.NS" for s in df['Symbol'] if pd.notna(s)]
-                    print(f"✓ Fetched {len(symbols)} symbols from NSE (Attempt {attempt+1})")
+                    print(f"[OK] Fetched {len(symbols)} symbols from NSE (Attempt {attempt+1})")
                     return symbols
             except Exception as e:
                 print(f"  Attempt {attempt+1} failed: {e}")
                 time.sleep(2)
         
         # 2. Fallback: Use existing CSV symbols if available
-        print("⚠ Web fetch failed. Trying fallback to existing CSV...")
+        print("[WARN] Web fetch failed. Trying fallback to existing CSV...")
         existing_csv = Path("data/nifty500_ohlcv.csv")
         if existing_csv.exists():
             df = pd.read_csv(existing_csv)
             symbols = list(df['Symbol'].unique())
             # Ensure .NS suffix
             symbols = [s if s.endswith('.NS') else f"{s}.NS" for s in symbols]
-            print(f"✓ Recovered {len(symbols)} symbols from existing local data")
+            print(f"[OK] Recovered {len(symbols)} symbols from existing local data")
             return symbols
             
     except Exception as e:
-        print(f"✗ Critical failure in symbol fetch: {e}")
+        print(f"[ERROR] Critical failure in symbol fetch: {e}")
         return []
     
     return []
@@ -52,10 +52,10 @@ def load_existing_csv():
         try:
             df = pd.read_csv(csv_path)
             df['Date'] = pd.to_datetime(df['Date'])
-            print(f"✓ Loaded existing CSV: {len(df)} rows")
+            print(f"[OK] Loaded existing CSV: {len(df)} rows")
             return df
         except Exception as e:
-            print(f"⚠ Could not load existing CSV: {e}")
+            print(f"[WARN] Could not load existing CSV: {e}")
             return None
     return None
 
@@ -68,11 +68,11 @@ def fetch_all_data(symbols, days=200, existing_df=None):
         last_date = existing_df['Date'].max()
         days_since = (datetime.date.today() - last_date.date()).days
         fetch_days = min(days_since + 2, 10)  # Fetch at most 10 days incrementally
-        print(f"📥 Incremental fetch: Last data from {last_date.date()}, fetching {fetch_days} days")
+        print(f"[FETCH] Incremental fetch: Last data from {last_date.date()}, fetching {fetch_days} days")
     else:
         # Full fetch: Get all 200 days
         fetch_days = days
-        print(f"📥 Full fetch: Getting {fetch_days} days of data")
+        print(f"[FETCH] Full fetch: Getting {fetch_days} days of data")
     
     end_date = datetime.date.today()
     start_date = end_date - datetime.timedelta(days=fetch_days)
@@ -107,10 +107,10 @@ def fetch_all_data(symbols, days=200, existing_df=None):
             continue
     
     if failed:
-        print(f"✗ Failed to fetch {len(failed)} stocks")
+        print(f"[ERROR] Failed to fetch {len(failed)} stocks")
     
     if not all_data:
-        print("✗ No data fetched!")
+        print("[ERROR] No data fetched!")
         sys.exit(1)
     
     new_df = pd.concat(all_data, ignore_index=True)
@@ -118,7 +118,7 @@ def fetch_all_data(symbols, days=200, existing_df=None):
     
     # If incremental, merge with existing data
     if existing_df is not None:
-        print(f"🔄 Merging with existing data...")
+        print(f"[MERGE] Merging with existing data...")
         combined = pd.concat([existing_df, new_df], ignore_index=True)
         # Remove duplicates (keep newest)
         combined = combined.drop_duplicates(subset=['Symbol', 'Date'], keep='last')
@@ -128,10 +128,10 @@ def fetch_all_data(symbols, days=200, existing_df=None):
         cutoff_date = datetime.date.today() - datetime.timedelta(days=200)
         combined = combined[combined['Date'] >= pd.to_datetime(cutoff_date)]
         
-        print(f"✓ Merged: {len(combined)} total rows (removed old data)")
+        print(f"[OK] Merged: {len(combined)} total rows (removed old data)")
         return combined
     
-    print(f"✓ Fetched data for {len(all_data)} stocks")
+    print(f"[OK] Fetched data for {len(all_data)} stocks")
     return new_df
 
 def save_data(df, metadata):
@@ -143,13 +143,13 @@ def save_data(df, metadata):
     # Save CSV
     csv_path = data_dir / "nifty500_ohlcv.csv"
     df.to_csv(csv_path, index=False)
-    print(f"✓ Saved CSV: {csv_path} ({len(df)} rows)")
+    print(f"[OK] Saved CSV: {csv_path} ({len(df)} rows)")
     
     # Save metadata
     meta_path = data_dir / "metadata.json"
     with open(meta_path, 'w') as f:
         json.dump(metadata, f, indent=2)
-    print(f"✓ Saved metadata: {meta_path}")
+    print(f"[OK] Saved metadata: {meta_path}")
 
 def main():
     print("="*50)
@@ -159,7 +159,7 @@ def main():
     # Get symbols
     symbols = get_nifty_symbols()
     if not symbols:
-        print("✗ No symbols to fetch. Exiting.")
+        print("[ERROR] No symbols to fetch. Exiting.")
         sys.exit(1)
     
     # Load existing CSV
@@ -188,7 +188,7 @@ def main():
     save_data(df, metadata)
     
     print("\n" + "="*50)
-    print("✓ Data fetch completed successfully!")
+    print("[OK] Data fetch completed successfully!")
     print(f"  Mode: {metadata['fetch_mode']}")
     print(f"  Date range: {metadata['date_range']['start']} to {metadata['date_range']['end']}")
     print("="*50)
