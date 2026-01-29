@@ -520,12 +520,12 @@ def main():
             st.warning("No stocks matched the criteria.")
 
     st.markdown("---")
-    st.markdown("<h5 style='text-align: center; color: grey;'>App by Pravin A Mathew</h5>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: center; color: grey; font-size: 1.1rem;'>App by Pravin A Mathew</h5>", unsafe_allow_html=True)
     st.markdown("""
-        <div style='text-align: center; color: #cc0000; font-size: 1.1rem; padding: 10px;'>
+        <div style='text-align: center; color: #cc0000; font-size: 1.25rem; padding: 10px;'>
             <strong>THIS IS FOR SWING TRADING AND NOT FOR INTRADAY TRADING</strong>
         </div>
-        <div style='text-align: center; color: #888; font-size: 0.8rem; padding: 10px 20px;'>
+        <div style='text-align: center; color: #888; font-size: 0.9rem; padding: 10px 20px;'>
             <strong>SEBI Compliance & Risk Disclaimer:</strong><br>
             I am not a SEBI Registered Investment Advisor. This scanner is an automated tool designed for <strong>Educational & Research purposes only</strong>. 
             The signals generated do not constitute financial advice or buy/sell recommendations. 
@@ -533,7 +533,7 @@ def main():
             The author is <strong>not responsible</strong> for any financial losses incurred using this tool. 
             <strong>Do your own research (DYOR)</strong> and consult a certified professional before investing.
         </div>
-        <div style='text-align: center; color: #888; font-size: 0.8rem; padding: 0 20px 20px 20px;'>
+        <div style='text-align: center; color: #888; font-size: 0.9rem; padding: 0 20px 20px 20px;'>
             <strong>Strategy Expectations & Global Standards:</strong><br>
             In the professional trading world (Hedge Funds/Institutions), most successful strategies operate with a <strong>50% to 60% win rate</strong>. 
             Alpha-Zeta's <strong>60% winning rate</strong> is a top-tier industry benchmark. <br>
