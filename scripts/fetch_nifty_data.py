@@ -6,21 +6,44 @@ import datetime
 import json
 import sys
 import os
+import time
 from pathlib import Path
 
 def get_nifty_symbols():
     """Fetch Nifty 500 symbols from NSE"""
     try:
+        # 1. Try fetching from official source with retries
         url = "https://www.niftyindices.com/IndexConstituent/ind_nifty500list.csv"
         headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers, timeout=15, verify=False)
-        df = pd.read_csv(StringIO(response.text))
-        symbols = [f"{s.strip()}.NS" for s in df['Symbol'] if pd.notna(s)]
-        print(f"✓ Fetched {len(symbols)} symbols from NSE")
-        return symbols
+        
+        for attempt in range(3):
+            try:
+                response = requests.get(url, headers=headers, timeout=30, verify=False)
+                if response.status_code == 200:
+                    df = pd.read_csv(StringIO(response.text))
+                    symbols = [f"{s.strip()}.NS" for s in df['Symbol'] if pd.notna(s)]
+                    print(f"✓ Fetched {len(symbols)} symbols from NSE (Attempt {attempt+1})")
+                    return symbols
+            except Exception as e:
+                print(f"  Attempt {attempt+1} failed: {e}")
+                time.sleep(2)
+        
+        # 2. Fallback: Use existing CSV symbols if available
+        print("⚠ Web fetch failed. Trying fallback to existing CSV...")
+        existing_csv = Path("data/nifty500_ohlcv.csv")
+        if existing_csv.exists():
+            df = pd.read_csv(existing_csv)
+            symbols = list(df['Symbol'].unique())
+            # Ensure .NS suffix
+            symbols = [s if s.endswith('.NS') else f"{s}.NS" for s in symbols]
+            print(f"✓ Recovered {len(symbols)} symbols from existing local data")
+            return symbols
+            
     except Exception as e:
-        print(f"✗ Failed to fetch symbols: {e}")
+        print(f"✗ Critical failure in symbol fetch: {e}")
         return []
+    
+    return []
 
 def load_existing_csv():
     """Load existing CSV if it exists"""

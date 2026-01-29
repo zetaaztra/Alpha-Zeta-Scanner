@@ -9,6 +9,7 @@ import urllib3
 import logging
 import os
 import time
+import json
 from io import StringIO
 from scipy import stats
 
@@ -43,13 +44,15 @@ TIMEFRAME_CONFIGS = {
 class DataEngine:
     @staticmethod
     @st.cache_data(ttl=3600*24)
-    def load_csv_data():
+    def load_csv_data(csv_mtime):
         """Load pre-fetched CSV data from automated data pipeline"""
         try:
             csv_path = "data/nifty500_ohlcv.csv"
             if not os.path.exists(csv_path):
                 return None
             df = pd.read_csv(csv_path)
+            # Create a copy before modifying to keep the cache pure if needed, 
+            # but st.cache_data should handle it. Being safe.
             df['Date'] = pd.to_datetime(df['Date'])
             return df
         except Exception as e:
@@ -69,13 +72,20 @@ class DataEngine:
             return None
     
     @staticmethod
+
     def get_nifty_symbols():
         """Get symbols from CSV (preferred) or fetch from NSE (fallback)"""
         # Try to get from CSV first
-        df = DataEngine.load_csv_data()
-        if df is not None:
-            symbols = [f"{s}.NS" for s in df['Symbol'].unique()]
-            return symbols
+        try:
+            csv_path = "data/nifty500_ohlcv.csv"
+            if os.path.exists(csv_path):
+                mtime = os.path.getmtime(csv_path)
+                df = DataEngine.load_csv_data(mtime)
+                if df is not None:
+                    symbols = [f"{s}.NS" for s in df['Symbol'].unique()]
+                    return symbols
+        except Exception:
+            pass
         
         # Fallback to live NSE fetch
         try:
@@ -118,10 +128,14 @@ class DataEngine:
     def fetch_stock_data(symbol, start_date, end_date):
         """Fetch stock data from CSV (preferred) or yfinance (fallback)"""
         # Try CSV first
-        csv_df = DataEngine.load_csv_data()
-        if csv_df is not None:
-            symbol_name = symbol.replace('.NS', '')
-            stock_data = csv_df[csv_df['Symbol'] == symbol_name].copy()
+        csv_path = "data/nifty500_ohlcv.csv"
+        if os.path.exists(csv_path):
+            mtime = os.path.getmtime(csv_path)
+            csv_df = DataEngine.load_csv_data(mtime)
+            
+            if csv_df is not None:
+                symbol_name = symbol.replace('.NS', '')
+                stock_data = csv_df[csv_df['Symbol'] == symbol_name].copy()
             
             if not stock_data.empty:
                 # Filter by date range
@@ -135,13 +149,21 @@ class DataEngine:
                     stock_data.set_index('Date', inplace=True)
                     stock_data = stock_data[['Open', 'High', 'Low', 'Close', 'Volume']]
                     
-                    # Get metadata for fetch time
+                    # Default values in case metadata is missing
+                    ist_now = datetime.datetime.now()
+                    fetch_time = ist_now
+                    last_date = stock_data.index[-1].date()
+                    
+                    # Try to get metadata for more accurate fetch time
                     metadata = DataEngine.load_metadata()
                     if metadata:
-                        fetch_time_str = metadata.get('last_updated')
-                        fetch_time = datetime.datetime.strptime(fetch_time_str, '%Y-%m-%d %H:%M:%S')
-                        last_date = stock_data.index[-1].date()
-                        return stock_data, fetch_time, last_date
+                        try:
+                            fetch_time_str = metadata.get('last_updated')
+                            fetch_time = datetime.datetime.strptime(fetch_time_str, '%Y-%m-%d %H:%M:%S')
+                        except:
+                            pass
+                    
+                    return stock_data, fetch_time, last_date
         
         # Fallback to live yfinance
         try:
@@ -311,6 +333,10 @@ def main():
     with st.sidebar.expander("Advanced settings"):
         start_date = st.date_input("Start Date", default_start)
         end_date = datetime.date.today()
+        
+        if st.button("🗑️ Clear Cache"):
+            st.cache_data.clear()
+            st.success("Cache cleared!")
 
     # --- HELP & GUIDE ---
     with st.sidebar.expander("📘 How to Use & Recommendations", expanded=False):
