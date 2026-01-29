@@ -510,6 +510,16 @@ def main():
 
     st.markdown("---")
     st.markdown("<h5 style='text-align: center; color: grey;'>App by Pravin A Mathew</h5>", unsafe_allow_html=True)
+    st.markdown("""
+        <div style='text-align: center; color: #888; font-size: 0.8rem; padding: 20px;'>
+            <strong>⚖️ SEBI Compliance & Risk Disclaimer:</strong><br>
+            I am not a SEBI Registered Investment Advisor. This scanner is an automated tool designed for <strong>Educational & Research purposes only</strong>. 
+            The signals generated do not constitute financial advice or buy/sell recommendations. 
+            Paper trading is recommended before committing real capital. Trading in equities involves significant risk. 
+            The author is <strong>not responsible</strong> for any financial losses incurred using this tool. 
+            <strong>Do your own research (DYOR)</strong> and consult a certified professional before investing.
+        </div>
+    """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
