@@ -371,6 +371,17 @@ def main():
         *   **When to Enter:**
             *   *Aggressive:* At 3:25 PM if price holds level.
             *   *Safe:* Next Morning (9:30 AM).
+            
+        **6. How to Select Stocks (The Score Card):**
+        *   **🏆 Decoding the Score:**
+            *   **Golden Zone (25+):** Excellent. High momentum + Institutional volume. Explosive breakouts.
+            *   **Strong Zone (15-25):** Very Good. Solid steady trends. Reliable swing trades.
+            *   **Early Zone (5-15):** Good. Momentum starting to build.
+        *   **🚦 Risk/Warning Signs:**
+            *   **High Score + High RSI (>68):** Stock is "Hot". Don't chase. Wait for a pullback to the 'Entry' price.
+            *   **Low Score + Low Volume:** Stock is drifting, not driven. Higher risk.
+        *   **💡 Pro Tip:**
+            *   **The Sweet Spot:** The most reliable winners often have a **Score > 20** with **RSI between 55 and 65**.
         """)
     
     if st.button("RUN SCANNER", type="primary"):
