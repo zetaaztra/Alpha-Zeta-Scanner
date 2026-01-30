@@ -1,0 +1,63 @@
+name: Fetch Live Prices (Hourly)
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # Run hourly during market hours (Mon-Fri)
+    # Times in UTC (IST - 5:30)
+    - cron: '45 3 * * 1-5'   # 09:15 AM IST
+    - cron: '30 4 * * 1-5'   # 10:00 AM IST
+    - cron: '30 5 * * 1-5'   # 11:00 AM IST
+    - cron: '30 6 * * 1-5'   # 12:00 PM IST
+    - cron: '30 7 * * 1-5'   # 01:00 PM IST
+    - cron: '30 8 * * 1-5'   # 02:00 PM IST
+    - cron: '0 10 * * 1-5'   # 03:30 PM IST
+  
+  workflow_dispatch:
+
+jobs:
+  fetch-live-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas requests urllib3
+      
+      - name: Fetch Live Nifty 500 data
+        run: |
+          python scripts/fetch_nifty_data.py --live
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add data/
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git commit -m "Live update - $(date +'%Y-%m-%d %H:%M IST')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: No changes detected
+        if: steps.check_changes.outputs.changed != 'true'
+        run: echo "No changes in data, skipping commit"

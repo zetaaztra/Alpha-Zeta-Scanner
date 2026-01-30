@@ -134,26 +134,39 @@ def fetch_all_data(symbols, days=200, existing_df=None):
     print(f"[OK] Fetched data for {len(all_data)} stocks")
     return new_df
 
-def save_data(df, metadata):
+def save_data(df, metadata, csv_path="data/nifty500_ohlcv.csv", meta_path="data/metadata.json"):
     """Save CSV and metadata"""
     # Ensure data directory exists
     data_dir = Path("data")
     data_dir.mkdir(exist_ok=True)
     
     # Save CSV
-    csv_path = data_dir / "nifty500_ohlcv.csv"
     df.to_csv(csv_path, index=False)
     print(f"[OK] Saved CSV: {csv_path} ({len(df)} rows)")
     
     # Save metadata
-    meta_path = data_dir / "metadata.json"
     with open(meta_path, 'w') as f:
         json.dump(metadata, f, indent=2)
     print(f"[OK] Saved metadata: {meta_path}")
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--live', action='store_true', help='Use live data output paths')
+    args = parser.parse_args()
+    
+    # Determine output paths based on mode
+    if args.live:
+        csv_output = "data/nifty500_live.csv"
+        meta_output = "data/live_metadata.json"
+        mode_label = "LIVE"
+    else:
+        csv_output = "data/nifty500_ohlcv.csv"
+        meta_output = "data/metadata.json"
+        mode_label = "DAILY"
+    
     print("="*50)
-    print("Nifty 500 Data Fetch - Automated")
+    print(f"Nifty 500 Data Fetch - {mode_label} Mode")
     print("="*50)
     
     # Get symbols
@@ -185,7 +198,7 @@ def main():
     }
     
     # Save
-    save_data(df, metadata)
+    save_data(df, metadata, csv_output, meta_output)
     
     print("\n" + "="*50)
     print("[OK] Data fetch completed successfully!")

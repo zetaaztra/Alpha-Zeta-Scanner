@@ -60,10 +60,37 @@ class DataEngine:
             return None
     
     @staticmethod
+    @st.cache_data(ttl=1800)  # Cache for 30 minutes
+    def load_live_csv_data(csv_mtime):
+        """Load live (hourly-updated) CSV data"""
+        try:
+            csv_path = "data/nifty500_live.csv"
+            if not os.path.exists(csv_path):
+                return None
+            df = pd.read_csv(csv_path)
+            df['Date'] = pd.to_datetime(df['Date'])
+            return df
+        except Exception as e:
+            st.warning(f"Could not load live CSV data: {e}")
+            return None
+    
+    @staticmethod
     def load_metadata():
         """Load metadata about data freshness"""
         try:
             meta_path = "data/metadata.json"
+            if not os.path.exists(meta_path):
+                return None
+            with open(meta_path, 'r') as f:
+                return json.load(f)
+        except:
+            return None
+    
+    @staticmethod
+    def load_live_metadata():
+        """Load metadata about live data freshness"""
+        try:
+            meta_path = "data/live_metadata.json"
             if not os.path.exists(meta_path):
                 return None
             with open(meta_path, 'r') as f:
@@ -125,45 +152,82 @@ class DataEngine:
         return None, None
 
     @staticmethod
-    def fetch_stock_data(symbol, start_date, end_date):
+    def fetch_stock_data(symbol, start_date, end_date, use_live=False):
         """Fetch stock data from CSV (preferred) or yfinance (fallback)"""
+        # Determine which CSV to use based on use_live flag
+        if use_live:
+            csv_path = "data/nifty500_live.csv"
+            load_func = DataEngine.load_live_csv_data
+            meta_func = DataEngine.load_live_metadata
+        else:
+            csv_path = "data/nifty500_ohlcv.csv"
+            load_func = DataEngine.load_csv_data
+            meta_func = DataEngine.load_metadata
+        
         # Try CSV first
-        csv_path = "data/nifty500_ohlcv.csv"
         if os.path.exists(csv_path):
             mtime = os.path.getmtime(csv_path)
-            csv_df = DataEngine.load_csv_data(mtime)
+            csv_df = load_func(mtime)
             
             if csv_df is not None:
                 symbol_name = symbol.replace('.NS', '')
                 stock_data = csv_df[csv_df['Symbol'] == symbol_name].copy()
             
-            if not stock_data.empty:
-                # Filter by date range
-                stock_data = stock_data[
-                    (stock_data['Date'] >= pd.to_datetime(start_date)) &
-                    (stock_data['Date'] <= pd.to_datetime(end_date))
-                ]
-                
                 if not stock_data.empty:
-                    # Convert to yfinance-like format
-                    stock_data.set_index('Date', inplace=True)
-                    stock_data = stock_data[['Open', 'High', 'Low', 'Close', 'Volume']]
+                    # Filter by date range
+                    stock_data = stock_data[
+                        (stock_data['Date'] >= pd.to_datetime(start_date)) &
+                        (stock_data['Date'] <= pd.to_datetime(end_date))
+                    ]
                     
-                    # Default values in case metadata is missing
-                    ist_now = datetime.datetime.now()
-                    fetch_time = ist_now
-                    last_date = stock_data.index[-1].date()
-                    
-                    # Try to get metadata for more accurate fetch time
-                    metadata = DataEngine.load_metadata()
-                    if metadata:
-                        try:
-                            fetch_time_str = metadata.get('last_updated')
-                            fetch_time = datetime.datetime.strptime(fetch_time_str, '%Y-%m-%d %H:%M:%S')
-                        except:
-                            pass
-                    
-                    return stock_data, fetch_time, last_date
+                    if not stock_data.empty:
+                        # Convert to yfinance-like format
+                        stock_data.set_index('Date', inplace=True)
+                        stock_data = stock_data[['Open', 'High', 'Low', 'Close', 'Volume']]
+                        
+                        # Default values in case metadata is missing
+                        ist_now = datetime.datetime.now()
+                        fetch_time = ist_now
+                        last_date = stock_data.index[-1].date()
+                        
+                        # Try to get metadata for more accurate fetch time
+                        metadata = meta_func()
+                        if metadata:
+                            try:
+                                fetch_time_str = metadata.get('last_updated')
+                                fetch_time = datetime.datetime.strptime(fetch_time_str, '%Y-%m-%d %H:%M:%S')
+                            except:
+                                pass
+                        
+                        return stock_data, fetch_time, last_date
+        
+        # If live was requested but not available, try daily as fallback
+        if use_live:
+            daily_path = "data/nifty500_ohlcv.csv"
+            if os.path.exists(daily_path):
+                mtime = os.path.getmtime(daily_path)
+                csv_df = DataEngine.load_csv_data(mtime)
+                if csv_df is not None:
+                    symbol_name = symbol.replace('.NS', '')
+                    stock_data = csv_df[csv_df['Symbol'] == symbol_name].copy()
+                    if not stock_data.empty:
+                        stock_data = stock_data[
+                            (stock_data['Date'] >= pd.to_datetime(start_date)) &
+                            (stock_data['Date'] <= pd.to_datetime(end_date))
+                        ]
+                        if not stock_data.empty:
+                            stock_data.set_index('Date', inplace=True)
+                            stock_data = stock_data[['Open', 'High', 'Low', 'Close', 'Volume']]
+                            ist_now = datetime.datetime.now()
+                            metadata = DataEngine.load_metadata()
+                            fetch_time = ist_now
+                            if metadata:
+                                try:
+                                    fetch_time_str = metadata.get('last_updated')
+                                    fetch_time = datetime.datetime.strptime(fetch_time_str, '%Y-%m-%d %H:%M:%S')
+                                except:
+                                    pass
+                            return stock_data, fetch_time, stock_data.index[-1].date()
         
         # Fallback to live yfinance
         try:
@@ -322,7 +386,29 @@ def main():
     min_vol_mil = st.sidebar.number_input("Min Volume (Millions)", value=1.0)
     min_vol = min_vol_mil * 1e6
     
-    mode_option = st.sidebar.radio("Filter Mode", ("Prime Turbo (Max ROI)", "Prime Safe (Defensive)"))
+    # --- DATA ENGINE V2.0 ---
+    st.sidebar.subheader("Data Engine V2.0")
+    source_option = st.sidebar.radio(
+        "Source Toggle",
+        ("Automation Bot (Fastest)", "Live Market (Freshness)"),
+        help="Automation Bot uses pre-fetched daily data. Live Market uses hourly-updated data."
+    )
+    use_live_data = "Live Market" in source_option
+    
+    # Show data freshness
+    if use_live_data:
+        live_meta = DataEngine.load_live_metadata()
+        if live_meta:
+            st.sidebar.caption(f"Live data last updated: {live_meta.get('last_updated', 'N/A')}")
+        else:
+            st.sidebar.caption("Live data not available. Will fall back to daily data.")
+    else:
+        daily_meta = DataEngine.load_metadata()
+        if daily_meta:
+            st.sidebar.caption(f"Daily data: {daily_meta.get('last_updated', 'N/A')}")
+    
+    st.sidebar.subheader("Filter Mode")
+    mode_option = st.sidebar.radio("Strategy", ("Prime Turbo (Max ROI)", "Prime Safe (Defensive)"))
     choice_mode = 1 if "Turbo" in mode_option else 2
     
     # Calculate Start Date based on config recommendation
@@ -385,17 +471,28 @@ def main():
         """)
     
     if st.button("RUN SCANNER", type="primary"):
-        # Check data source
-        csv_exists = os.path.exists("data/nifty500_ohlcv.csv")
-        metadata = DataEngine.load_metadata()
-        
-        if csv_exists:
-            st.success("Using high-speed pre-fetched data (Delayed by 1 day)")
-            st.caption("Accuracy Note: 1-day lag is standard for EOD systems and does not impact momentum signal validity.")
-            if metadata:
-                st.info(f"Data Last Updated: {metadata['last_updated']} IST")
+        # Check data source based on user selection
+        if use_live_data:
+            live_csv_exists = os.path.exists("data/nifty500_live.csv")
+            live_meta = DataEngine.load_live_metadata()
+            if live_csv_exists and live_meta:
+                st.success("Using LIVE hourly-updated data")
+                st.info(f"Live Data Last Updated: {live_meta.get('last_updated', 'N/A')} IST")
+            else:
+                st.warning("Live data not available. Falling back to daily data.")
+                metadata = DataEngine.load_metadata()
+                if metadata:
+                    st.info(f"Daily Data Last Updated: {metadata.get('last_updated', 'N/A')} IST")
         else:
-            st.warning("CSV data not found. Using live yfinance (slower)")
+            csv_exists = os.path.exists("data/nifty500_ohlcv.csv")
+            metadata = DataEngine.load_metadata()
+            if csv_exists:
+                st.success("Using high-speed pre-fetched data (Daily)")
+                st.caption("Accuracy Note: EOD data is standard for swing trading systems.")
+                if metadata:
+                    st.info(f"Data Last Updated: {metadata['last_updated']} IST")
+            else:
+                st.warning("CSV data not found. Using live yfinance (slower)")
         
         symbols = DataEngine.get_nifty_symbols()
         st.info(f"Found {len(symbols)} symbols. Starting analysis...")
@@ -414,7 +511,7 @@ def main():
             progress_bar.progress((i + 1) / total)
             
             # Fetch Data (Cached)
-            data, fetch_time, data_date = DataEngine.fetch_stock_data(sym, start_date, end_date)
+            data, fetch_time, data_date = DataEngine.fetch_stock_data(sym, start_date, end_date, use_live=use_live_data)
             
             if data is None:
                 stats_counter["Data/Error"] += 1
