@@ -99,9 +99,12 @@ def fetch_all_data(symbols, days=200, existing_df=None):
             data = data[['Symbol', 'Date', 'Open', 'High', 'Low', 'Close', 'Volume']]
             all_data.append(data)
             
-            if i % 50 == 0:
+            if i % 10 == 0:
                 print(f"  Progress: {i}/{len(symbols)} stocks fetched...")
                 
+            # Rate limiting to prevent IP ban
+            time.sleep(0.1) 
+
         except Exception as e:
             failed.append(symbol)
             continue
