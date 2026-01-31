@@ -427,12 +427,20 @@ def main():
     # --- HELP & GUIDE ---
     with st.sidebar.expander("How to Use & Recommendations", expanded=False):
         st.markdown("""
-        **1. Min Volume (Turnover) Input:**
+        **1. Data Engine Modes:**
+        *   **Automation Bot (Fastest):**
+            *   *What it is:* Uses yesterday's closing data (EOD). Zero wait time.
+            *   *Best for:* Pre-market planning, Weekend research, or Swing setups (where 1-day lag is fine).
+        *   **Live Market (Freshness):**
+            *   *What it is:* Uses data updated hourly (9:15 AM - 3:30 PM).
+            *   *Best for:* Mid-market decisions (e.g., checking if a breakout holds at 2:00 PM).
+
+        **2. Min Volume (Turnover) Input:**
         *   **Important:** This input is for **Turnover (Value in INR)**, not Share Count.
         *   **Input Unit:** Millions (e.g., `100` = 100 Million INR Turnover).
         *   **Recommendation:** Start with **100** or **500** to filter illiquid stocks.
         
-        **2. Scanning Timeframes:**
+        **3. Scanning Timeframes:**
         *   **3-7 Days (Aggressive):**
             *   *Min Volume:* Use **500** (Need high liquidity for quick exits).
             *   *Best for:* Quick scalps/swings.
@@ -443,22 +451,22 @@ def main():
             *   *Min Volume:* Use **100** (or 50 for niche picks).
             *   *Best for:* Position trading.
         
-        **3. Filter Modes:**
+        **4. Filter Modes:**
         *   **Prime Turbo (Max ROI):**
             *   *Min Volume:* Can use **100** to catch moving mid-caps.
         *   **Prime Safe (Defensive):**
             *   *Min Volume:* Stick to **500+** to ensure safety.
         
-        **4. Capital Input:**
+        **5. Capital Input:**
         *   Enter your *Total Capital* to get auto-calculated position sizes (`Qty`).
         
-        **5. Execution Guide:**
+        **6. Execution Guide:**
         *   **When to Run:** Best at **3:15 PM IST** or **After Market Hours**.
         *   **When to Enter:**
             *   *Aggressive:* At 3:25 PM if price holds level.
             *   *Safe:* Next Morning (9:30 AM).
             
-        **6. How to Select Stocks (The Score Card):**
+        **7. How to Select Stocks (The Score Card):**
         *   **Decoding the Score:**
             *   **Golden Zone (25+):** Excellent. High momentum + Institutional volume. Explosive breakouts.
             *   **Strong Zone (15-25):** Very Good. Solid steady trends. Reliable swing trades.
