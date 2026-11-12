@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-11-11 23:00:59",
+  "last_updated": "2026-11-12 19:29:10",
   "timezone": "IST",
   "total_stocks": 559,
-  "total_records": 70127,
+  "total_records": 70626,
   "date_range": {
     "start": "2026-04-27",
-    "end": "2026-11-09"
+    "end": "2026-11-11"
   },
   "fetch_mode": "incremental"
 }
